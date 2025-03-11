@@ -1,15 +1,15 @@
 ---
-title: Overview - Cat Analytics
-description: This is the overview page of Cat Analytics
+title: Adobe Connect - SDK Documentation
+description: This is the overview page of Adobe Connect SDK Documentation
 contributors:
-  - https://github.com/icaraps 
+  - https://github.com/skhadiya 
 ---
 
 <HeroSimple slots="heading, text"/>
 
-# Cat Analytics API
+# Adobe Connect SDK
 
-Cat Product API offers limitless ways to integrate your most important customer data into key business processes. Cat Product API offer limitless ways.
+Adobe Connect enables customer to extend the out-of-the-box functionality of Adobe Connect using custom pods developed with standard web technologies such as HTML, Javascript, and CSS.
 
 <Resources slots="heading, links"/>
 
