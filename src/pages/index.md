@@ -20,13 +20,11 @@ Adobe Connect enables customer to extend the out-of-the-box functionality of Ado
 
 ## Overview
 
-This documentation provides instructions for Catt Analytics 2.0 APIs. For working with Cat Analytics APIs, see [Cat Analytics API Documentation](https://github.com/AdobeDocs/dev-site).
+This documentation provides instructions for Adobe Connect Custom Pods SDK Documentation v11. For working with Cat Analytics APIs, see [Cat Analytics API Documentation](https://github.com/AdobeDocs/dev-site).
 
-The Cat Analytics APIs are a collection of APIs that power Cat Analytics products like Cat Workspace.
-The APIs allow for the creation of data rich user interfaces that you can use to manipulate and integrate data.
-You can also create reports to explore, get insights, or answer important questions about your data.
+Custom pods can be used to allow multi-user interactions within a session, they can provide a synchronized display of information for all users and can even send and receive data from external websites. Simple examples include a countdown-timer that lets a host show everyone when the meeting will start, or an interactive game that displays a leaderboard with all the participants’ scores, or a map application that combines user location data with map data from an external mapping website. 
 
-## Discover
+## Getting Started
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
