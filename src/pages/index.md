@@ -15,8 +15,8 @@ Adobe Connect enables customers to extend the out-of-the-box functionality of Ad
 
 #### Resources
 
-* [Quickstart Guide](https://developer.adobe.com)
-* [Cat Analytics Github Repo](https://github.com/AdobeDocs/dev-site)
+* [SDK Reference](https://developer.adobe.com)
+* [Sample Custom Pods Package](https://github.com/AdobeDocs/dev-site)
 
 ## Overview
 
