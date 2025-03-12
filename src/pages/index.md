@@ -26,7 +26,7 @@ Custom pods can be used to allow multi-user interactions within a session, they 
 
 ## Getting Started
 
-<DiscoverBlock width="100%" slots="link, text"/>
+<DiscoverBlock slots="link, text"/>
 
 [Development Considerations](guides/)
 
@@ -42,7 +42,7 @@ Understand the structure of a Custom Pods package
 
 [Message Handling](guides/dummy_oauth_client/)
 
-Learn how Custom Pods can communicate with other components of the room using Messages
+Learn how Custom Pods can communicate with other components of a room using Messages
 
 <DiscoverBlock slots="heading, link, text"/>
 
