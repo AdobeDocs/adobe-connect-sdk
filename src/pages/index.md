@@ -50,7 +50,7 @@ Learn how Custom Pods can communicate with other components of a room using Mess
 
 ### Guides
 
-[Create a new listing](guides/dummy_metrics_api/)
+[Create a New Listing](guides/dummy_metrics_api/)
 
 Learn about creating and submitting a custom pod listing on Developer Distribution
 
@@ -61,12 +61,6 @@ Learn about creating and submitting a custom pod listing on Developer Distributi
 Read through the complete reference to the Methods, Properties, and Events available in the SDK. 
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### API References
-
-[Try the API](api/)
-
-Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
 
 ## Contributing
 
