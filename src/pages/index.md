@@ -52,7 +52,7 @@ Learn how Custom Pods can communicate with other components of a room using Mess
 
 [Calculated Metrics API](guides/dummy_metrics_api/)
 
-Returns information on the user's company that is necessary for making other Cat Analytics API calls.
+Learn about creating and submitting a custom pod listing on Developer Distribution
 
 <DiscoverBlock slots="link, text"/>
 
