@@ -26,7 +26,9 @@ Custom pods can be used to allow multi-user interactions within a session, they 
 
 ## Getting Started
 
-<DiscoverBlock slots="link, text"/>
+<DiscoverBlock slots="heading, link, text"/>
+
+### Development Basics
 
 [Development Considerations](guides/)
 
