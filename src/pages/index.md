@@ -46,7 +46,7 @@ Learn how Custom Pods can communicate with other components of a room using Mess
 
 <DiscoverBlock slots="heading, link, text"/>
 
-### Guides
+### Submission Overview
 
 [Calculated Metrics API](guides/dummy_metrics_api/)
 
