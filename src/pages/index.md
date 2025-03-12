@@ -48,29 +48,17 @@ Learn how Custom Pods can communicate with other components of a room using Mess
 
 <DiscoverBlock slots="heading, link, text"/>
 
-### Submission Overview
+### Guides
 
-[Calculated Metrics API](guides/dummy_metrics_api/)
+[Create a new listing](guides/dummy_metrics_api/)
 
 Learn about creating and submitting a custom pod listing on Developer Distribution
 
 <DiscoverBlock slots="link, text"/>
 
-[Segments API](guides/dummy_oauth_client/)
+[SDK Reference](guides/dummy_oauth_client/)
 
-Provides configuration guidance and best practices for the /segments endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Reporting Guide API](guides/dummy_using_postman/)
-
-Provides configuration guidance and best practices for the /reports endpoint.
-
-<DiscoverBlock slots="link, text"/>
-
-[Migrating from 1.4 to 2.0](guides/migrating/)
-
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.
+Read through the complete reference to the Methods, Properties, and Events available in the SDK. 
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
