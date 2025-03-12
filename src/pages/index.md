@@ -34,6 +34,12 @@ Custom pods can be used to allow multi-user interactions within a session, they 
 
 Understand the development considerations while using Adobe Connect SDK to develop custom pods
 
+<DiscoverBlock slots="link, text"/>
+
+[Custom Pods Structure](guides/dummy_oauth_client/)
+
+Understand the structure of a Custom Pods package
+
 <DiscoverBlock slots="heading, link, text"/>
 
 ### Guides
