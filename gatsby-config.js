@@ -54,17 +54,22 @@ module.exports = {
     ],
     subPages: [
       {
-        title: 'Get Started',
+        title: 'Getting Started',
         path: '/guides/',
         pages: [
           {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
+            title: 'Development Considerations',
+            path: '/guides/development_considerations/'
           },
           {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
+            title: 'Custom Pod Structure',
+            path: '/guides/custom_pod_structure/'
+          },
+          {
+            title: 'Message Handling',
+            path: '/guides/message_handling/'
           }
+
         ]
       },
       {
