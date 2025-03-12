@@ -68,6 +68,10 @@ module.exports = {
           {
             title: 'Message Handling',
             path: '/guides/message_handling/'
+          },
+          {
+            title: 'Sample Custom Pod Package',
+            path: '/guides/sample_custom_pod/'
           }
 
         ]
