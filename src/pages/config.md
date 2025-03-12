@@ -13,9 +13,10 @@
     - [Support](/support/)
 
 - subPages:
-    - [Get Started](/guides/) 
-        - [Dummy an OAuth Client](/guides/dummy_oauth_client/) 
-        - [Dummy OAuth using POSTMAN](/guides/dummy_using_postman/) 
+    - [Getting Started](/guides/) 
+        - [Development Considerations](/guides/development_considerations/) 
+        - [Custom Pod Structure](/guides/custom_pod_structure/)
+        - [Message Handling](/guides/message_handling/) 
     - [Cat Metrics API](/guides/dummy_metrics_api/) 
     - [Migrating](/guides/migrating/) 
     - [Overview](/support/) header
