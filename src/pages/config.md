@@ -2,8 +2,8 @@
     - /adobe-connect-sdk/
 
 - versions:
-    - [v2.0](/) selected
-    - [v1.4](https://github.com/AdobeDocs/dev-site) 
+    - [v11.0](/) selected
+    -  
 
 - pages:
     - [Cat Analytics](/)
