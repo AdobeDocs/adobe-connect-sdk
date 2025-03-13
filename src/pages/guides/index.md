@@ -5,7 +5,7 @@ description: This is the overview page of Adobe Connect Custom Pods SDK
 
 # Overview
 
-Developers can create applications (which we terms as Custom Pods) using standard HTML and JavaScript programming. The Adobe Connect SDK is a javascript library which provides a set of standard programming interfaces (Methods, Events, Properties, and Constants) that can be added to an application to enable meeting specific activities. The developer might want choose which variables are synchronized for all users in the meeting (such as the countdown timer value), or to limit the permissions to view certain UI elements or enter data in a field (so only hosts can set the time in the countdown), or even to change the behavior of a custom pod when it is being viewed in a recording.
+Developers can create applications (which we term as Custom Pods) using standard HTML and JavaScript programming. The Adobe Connect SDK is a javascript library which provides a set of standard programming interfaces (Methods, Events, Properties, and Constants) that can be added to an application to enable meeting specific activities. The developer might want choose which variables are synchronized for all users in the meeting (such as the countdown timer value), or to limit the permissions to view certain UI elements or enter data in a field (so only hosts can set the time in the countdown), or even to change the behavior of a custom pod when it is being viewed in a recording.
 
 ## Authentication
 
