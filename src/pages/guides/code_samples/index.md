@@ -68,4 +68,6 @@ To test the functionality, you can drag and drop the pod as a ZIP package to an 
 
 [Download Sample Custom Pod](/static/SampleCustomPod.zip)
 
+The sample custom pod includes a **breeze-manifest.xml** file you can use as a starting point for your own pod as well as an HTML file that includes some JavaScript examples of functions to send and receive Sync Messages as well as to list all users in the room.
 
+Note, that since the `allowParticipantPublish` option was not used, only Hosts and Presenters will be able to send the custom sync messages. The ability to list all users is also restricted to hosts only.
