@@ -1,5 +1,63 @@
 # Code Samples
 Learn how to initialize the SDK library, structure the breeze-manifest file, and download a sample custom pods package. 
 
+## Initialize SDK Library
+
+<CodeBlock slots="heading, code" languages="JavaScript"/>
+
+#### Initialize SDK Library
+
+```javascript
+//Initialize library
+
+// while using React it is recommended that you initialize the librar inside componentDidMount method
+var cpu = ConnectCustomSDK.SyncConnector || {};
+
+// to inform the main client that library is getting initialised
+cpu.init(
+  onConfigured,
+  "com.adobe.connect.basiclistsync",
+  "10.5",
+  "connectsdkhook"
+);
+cpu.registerCallback("userLeft", updateUserList);
+cpu.registerCallback("userJoined", updateUserList);
+cpu.registerCallback("userDetailsChanged", updateUserList);
+cpu.registerCallback("userStatusChanged", updateUserList);
+cpu.registerCallback("roleChanged", updateUserList);
+cpu.registerCallback("syncMessageReceived", syncMessageReceived);
+cpu.registerCallback("caughtUp", caughtUp);
+cpu.registerCallback("update", breakOutSession);
+onConfigured = function () {
+  /*code to load the content of html*/
+};
+
+```
+<CodeBlock slots="heading, code" languages="XML"/>
+
+#### Breeze Manifest File
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<breeze-manifest version="1.0"
+    xmlns="http://breeze.macromedia.com/ns/breezemanifest" generator="ZB">
+    <document type="custom-pod" id="com.adobe.connect.reference" version="1.0.001" minimumConnectMobileVersion="2.4" minimumSDKversion="11.2.000" minimumConnectServerVersion="11.2.0"/>
+    <assets>
+        <asset type="document-view">
+            <entry href="CustomPod.htm" href-html5="CustomPod.htm" />
+            <file href="CustomPod.htm"/>
+            <file href="lib/"/>
+            <file href="lib/connect_customPodSDK.js"/>
+            <file href="css/"/>
+            <file href="css/style.css"/>
+            <file href="img/"/>
+            <file href="img/happy.jpg"/>
+        </asset>
+    </assets>
+</breeze-manifest>
+
+```
+
+
 
 
