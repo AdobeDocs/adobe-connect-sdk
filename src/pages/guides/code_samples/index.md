@@ -68,7 +68,7 @@ To test the functionality, you can drag and drop the pod as a ZIP package to an 
 
 <MiniResourceCard slots="image,heading,text,link" theme="lightest" textColor="#427dcd"/>
 
-![Download Sample Custom Pod File](./S_AniChangeBackground.png)
+![Download Sample Custom Pod File](./static/download_icon.svg)
 
 ### Download Sample File
 
