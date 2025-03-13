@@ -13,8 +13,8 @@ There are two functions that enable this.
 **dispatchSyncMessage** sends messages to other pods. Those messages include:
 - A message name to differentiate it from other messages
 - A message value - the contents of the message. A payload that can be a string, boolean, array, object or other data type.
-- A boolean value, called isDelta, to indicate if it is a stateful message or not. (Defaults to false if not specified)
-- A boolean value, called echoBack, to indicate if the sender of the message should aslo receive the message. (Defaults to false if not specified).
+- A boolean value, called `isDelta`, to indicate if it is a stateful message or not. (Defaults to `False` if not specified)
+- A boolean value, called `echoBack`, to indicate if the sender of the message should aslo receive the message. (Defaults to `False` if not specified).
 
 So, a typical way to send a message might be:
 
