@@ -4,7 +4,7 @@ A custom pod is delivered as a zip package containing source files, a manifest, 
 
 At a minimum, a custom pod must include both an HTML file with a `.htm` extension, and a manifest file to list all of the files as assets called **breeze-manifest.xml**. 
 
-Pods that use the Custom Pod SDK, will also need to include the SDK as part of the package. We recommend adding connect_customPodSDK.js in a folder called lib. **Do not modify this file**. 
+Pods that use the Custom Pod SDK, will also need to include the SDK as part of the package. We recommend adding `connect_customPodSDK.js` in a folder called `lib`. **Do not modify this file**. 
 
 Additional files and directories can be added such as images, css stylesheets, javascript files and other web libraries and technologies. Remember to reference all of your files in the **breeze-manifest.xml**. Adobe Connect may generate an error if files are not properly listed. 
 
