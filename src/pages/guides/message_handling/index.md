@@ -5,7 +5,7 @@ Learn how Custom Pods can communicate with other components of a room using Mess
 
 Each participant loads their own instance of the pod you build. The documentation reference outlines all of the Methods, Events, and Properties available in the Custom Pod SDK. The core functionality is sending messages to other instances of the pod and listening for those messages from other pods. In this way, a custom pod can communicate with other instances of itself.
 
-There are two functions that enable this. 
+There are two functions that enable this: 
 
 - **dispatchSyncMessage**
 - **syncMessageReceived**
@@ -55,4 +55,18 @@ So for a chat application, the Sync Messages to set an option or show who is typ
 
 ## Receiving Messages
 
+The pod you create can listen for messages sent by the Adobe Connect room as well as from other instances of itself.
 
+**syncMessageReceived** will listen for messages sent by other instances of the pod. It includes a payload with an object that includes the message name and message value sent from the **dispatchSyncMessage** call. You can use these values to synchronize your pod.
+
+<CodeBlock slots="heading, code" languages="JavaScript"/>
+
+#### Receiving Sync Messages from other pod instances
+
+```javascript
+function syncMessageReceived(evt) {
+    if (evt.msgNm ==="update-note") {
+    document.getElementById("notes") += evt.msgVal
+    }
+    }
+````
