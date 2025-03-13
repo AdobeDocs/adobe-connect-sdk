@@ -1,6 +1,7 @@
 # Development Considerations
 
-Learn about the development considerations while using Adobe Connect SDK to develop custom pods
+Learn about the development considerations while using Adobe Connect SDK to develop custom pods.
+
 Broadly speaking, there are two types of custom pods that you can create:
 
 - Applications that do not require synchronization, such as a clock that displays the users local time. This type of custom pod does not use or require the Custom Pod SDK, but your pod will still need to be packaged correctly with the required structure explained below.
