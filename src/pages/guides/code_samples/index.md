@@ -33,9 +33,11 @@ onConfigured = function () {
 };
 
 ```
+## Breeze Manifest File
+
 <CodeBlock slots="heading, code" languages="XML"/>
 
-#### Breeze Manifest File
+#### breeze-manifest.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
