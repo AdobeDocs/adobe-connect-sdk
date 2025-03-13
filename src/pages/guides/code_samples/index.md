@@ -69,4 +69,3 @@ To test the functionality, you can drag and drop the pod as a ZIP package to an 
 [Download Sample Custom Pod](/static/SampleCustomPod.zip)
 
 
-
