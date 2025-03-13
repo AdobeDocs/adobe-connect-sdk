@@ -16,7 +16,7 @@ Adobe Connect enables customers to extend the out-of-the-box functionality of Ad
 #### Resources
 
 * [SDK Reference](https://developer.adobe.com)
-* [Sample Custom Pods Package](https://github.com/AdobeDocs/dev-site)
+* [Code Samples](https://github.com/AdobeDocs/dev-site)
 
 ## Overview
 
