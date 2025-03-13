@@ -17,7 +17,7 @@
         - [Development Considerations](/guides/development_considerations/) 
         - [Custom Pod Structure](/guides/custom_pod_structure/)
         - [Message Handling](/guides/message_handling/)
-        - [Sample Custom Pod](/guides/sample_custom_pod) 
+        - [Code Samples](/guides/code_samples) 
     - [Cat Metrics API](/guides/dummy_metrics_api/) 
     - [Migrating](/guides/migrating/) 
     - [Overview](/support/) header
