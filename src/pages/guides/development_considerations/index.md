@@ -1,6 +1,6 @@
 # Development Considerations
 
-Undersatnd the development considerations while using Adobe Connect SDK to develop custom pods
+Learn about the development considerations while using Adobe Connect SDK to develop custom pods
 
 Broadly speaking, there are two types of custom pods that you can create:
 
