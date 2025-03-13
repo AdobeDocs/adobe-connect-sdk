@@ -66,7 +66,7 @@ To help you kickstart development of a Custom Pod, included below is a sample Cu
 
 To test the functionality, you can drag and drop the pod as a ZIP package to an empty Share pod in an Adobe Connect room. You can unzip the package to examine the code and structure of the package.
 
-[Download Sample Custom Pod](/static/SampleCustomPod.zip)
+[Download Sample Custom Pod](https://github.com/AdobeDocs/adobe-connect-sdk/blob/903fef50c5e2fe6b04bca712967d5bfbdb294078/static/SampleCustomPod.zip)
 
 The sample custom pod includes a **breeze-manifest.xml** file you can use as a starting point for your own pod as well as an HTML file that includes some JavaScript examples of functions to send and receive Sync Messages as well as to list all users in the room.
 
