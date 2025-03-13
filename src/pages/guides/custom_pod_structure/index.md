@@ -1,5 +1,6 @@
 # Custom Pod Structure
 Understand the structure of a Custom Pods package.
+
 A custom pod is delivered as a zip package containing source files, a manifest, and libraries. The package can optionally be renamed with a `.pod` extension to make downloading and distrubution easier. If you would like to submit the custom pod to the Adobe Connect marketplace, renaming to a `.pod` extension is required. Meeting hosts simply load this `.pod` or `.zip` package into an empty Share pod to install the application into any meeting room. The custom pod can also be uploaded to the Content library to make it easily accessible across meeting rooms. Custom pods which have been submitted and accepted to the Adobe Connect marketplace can be discovered from the in-app marketplace. 
 
 At a minimum, a custom pod must include both an HTML file with a `.htm` extension, and a manifest file to list all of the files as assets called **breeze-manifest.xml**. 
