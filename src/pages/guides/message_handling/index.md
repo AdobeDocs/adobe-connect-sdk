@@ -23,8 +23,7 @@ So, a typical way to send a message might be:
 #### Request
 
 ```JavaScript
-customPodObject.dispatchSyncMessage("update-note","this is my new note
-text",false, false);
+customPodObject.dispatchSyncMessage("update-note","this is my new note text",false, false);
 ```
 
 ## Stateful vs Delta Messages
