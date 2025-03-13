@@ -47,7 +47,11 @@ customPodObject.allowParticipantPublish(
 
 ## Stateful vs Delta Messages
 
+To determine whether your message is a delta message or a stateful message, consider the following:
+- A stateful message reflects the entire state for this message name. When the pod is loaded by someone who joined late, only the last message will be received.
+- A delta message only reflects a part of the entire state. When the pod is loaded by someone who joined late, they will receive all of the delta messages for this message name.
 
+So for a chat application, the Sync Messages to set an option or show who is typing a message would be **stateful**, but each chat message would be a **delta** message. In general, the large majority of your messages will be stateful and `isDelta` should be `false`.
 
 ## Receiving Messages
 
