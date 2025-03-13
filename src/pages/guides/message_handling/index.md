@@ -18,7 +18,14 @@ There are two functions that enable this.
 
 So, a typical way to send a message might be:
 
+<CodeBlock slots="heading, code" languages="JavaScript"/>
 
+#### Request
+
+```JavaScript
+customPodObject.dispatchSyncMessage("update-note","this is my new note
+text",false, false);
+```
 
 ## Stateful vs Delta Messages
 
