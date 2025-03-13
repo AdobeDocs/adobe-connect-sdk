@@ -20,10 +20,19 @@ So, a typical way to send a message might be:
 
 <CodeBlock slots="heading, code" languages="JavaScript"/>
 
-#### Request
+#### Dispatching Sync Messages
 
 ```JavaScript
 customPodObject.dispatchSyncMessage("update-note","this is my new note text",false, false);
+```
+By default, only hosts and presenters can send sync messages. To enable participants to send a specific sync messge, use the following syntax in your code for each of the message types they should be able to send:
+
+<CodeBlock slots="heading, code" languages="JavaScript"/>
+
+#### Allowing participants to dispatch Sync Messages
+
+```JavaScript
+customPodObject.allowParticipantPublish("update-note",true)
 ```
 
 ## Stateful vs Delta Messages
