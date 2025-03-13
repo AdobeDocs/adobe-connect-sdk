@@ -17,7 +17,8 @@ There are two functions that enable this.
 - A boolean value, called echoBack, to indicate if the sender of the message should aslo receive the message. (Defaults to false if not specified).
 
 So, a typical way to send a message might be:
-- 
+
+
 
 ## Stateful vs Delta Messages
 
