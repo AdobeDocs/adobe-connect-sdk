@@ -68,7 +68,7 @@ To test the functionality, you can drag and drop the pod as a ZIP package to an 
 
 <MiniResourceCard slots="image,heading,text,link"/>
 
-![Download Sample Custom Pod File](/static/download_icon.png)
+[Download Sample Custom Pod File](/static/download_icon.png)
 
 ### Download Sample File
 
