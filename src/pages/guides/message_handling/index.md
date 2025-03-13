@@ -22,7 +22,7 @@ So, a typical way to send a message might be:
 
 #### Dispatching Sync Messages
 
-```JavaScript
+```javascript
 customPodObject.dispatchSyncMessage(
   "update-note",
   "this is my new note text",
@@ -37,7 +37,7 @@ By default, only hosts and presenters can send sync messages. To enable particip
 
 #### Allowing participants to dispatch Sync Messages
 
-```JavaScript
+```javascript
 customPodObject.allowParticipantPublish(
     "update-note", 
     true
