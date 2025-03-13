@@ -20,7 +20,7 @@ Adobe Connect enables customers to extend the out-of-the-box functionality of Ad
 
 ## Overview
 
-This documentation provides instructions for Adobe Connect Custom Pods SDK Documentation v11. For detailed SDK reference, see [Adobe Connect SDK reference](https://github.com/AdobeDocs/dev-site).
+This documentation provides instructions for Adobe Connect Custom Pods SDK v11. For detailed SDK reference, see [Adobe Connect SDK reference](https://github.com/AdobeDocs/dev-site).
 
 Custom pods can be used to allow multi-user interactions within a session, they can provide a synchronized display of information for all users and can even send and receive data from external websites. Simple examples include a countdown-timer that lets a host show everyone when the meeting will start, or an interactive game that displays a leaderboard with all the participants’ scores, or a map application that combines user location data with map data from an external mapping website. 
 
