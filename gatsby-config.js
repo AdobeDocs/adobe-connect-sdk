@@ -86,6 +86,7 @@ module.exports = {
             title: 'Version Packaging',
             path: '/guides/submission_guidelines/version_packaging/'
           }
+          
         ]
       },
       {
