@@ -33,17 +33,12 @@ module.exports = {
         path: '/guides/'
       },
       {
-        title: 'API Reference',
+        title: 'SDK Reference',
         menu: [
           {
-            title: 'Cat Reference v2.0',
-            description: 'Cat Reporting API',
+            title: 'SDK v11.0',
+            description: 'SDK Reference v11',
             path: '/api/index.md'
-          },
-          {
-            title: 'Cat Reference v1.4',
-            description: 'Cat API Spec',
-            path: '/api/1-4.md'
           }
         ]
       },
