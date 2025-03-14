@@ -26,3 +26,8 @@ Read through the SDK methods, properties, and events.
 ```javascript
 customPodObject.allowParticipantPublish("name", true)
 ```
+
+## Properties
+
+
+## Events
