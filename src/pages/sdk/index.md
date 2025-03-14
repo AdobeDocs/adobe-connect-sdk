@@ -19,7 +19,7 @@ Read through the SDK methods, properties, and events.
   **Host Only** | This method will allow/block the participants from sending a sync event. 
   
   
-  | <div style="width:290px">Param</div>   | <div style="width:290px">Type</div>  | <div style="width:290px">Description</div>  |
+  | Param   | Type  | Description  |
   | ------ | ------------------- | ------------ |
   | msgName  | `string` | Name of the message for which the permission will be set |
   | allowFlag | `boolean` | If `true` then participants will be allowed     |
