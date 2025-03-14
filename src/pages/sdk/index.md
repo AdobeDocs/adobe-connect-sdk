@@ -12,8 +12,8 @@ Read through the SDK methods, properties, and events.
 
 | Param  | Type                | Description  |
 | ------ | ------------------- | ------------ |
-| msgName  | `String` | Name of the message for which the permission will be set |
-| allowFlag | `Boolean` | If `True` then participants will be allowed     |
+| msgName  | `string` | Name of the message for which the permission will be set |
+| allowFlag | `boolean` | If `true` then participants will be allowed     |
 
 **Returns**: `Void`
 
