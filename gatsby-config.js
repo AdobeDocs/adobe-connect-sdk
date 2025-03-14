@@ -89,8 +89,8 @@ module.exports = {
         ]
       },
       {
-        title: 'Migrating',
-        path: '/guides/migrating/'
+        title: 'Brand Guidelines',
+        path: '/guides/brand_guidelines/'
       },
       {
         title: 'Overview',
