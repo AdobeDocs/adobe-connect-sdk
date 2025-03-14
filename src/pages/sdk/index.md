@@ -95,31 +95,36 @@ Read through the SDK methods, properties, and events.
   ```
 </details>
 
-### getBreakoutRoomsList ()
-**Available since**: 11.0
+<details>
 
-[Host Only Function] This method will return the list of breakout rooms
+  <summary>getBreakoutRoomsList ()</summary>
 
-| Param | Type   | Description |
-|-------|--------|-------------|
-|       |        |             |
+  ### getBreakoutRoomsList ()
+  **Available since**: 11.0
+  
+  [Host Only Function] This method will return the list of breakout rooms
+  
+  | Param | Type   | Description |
+  |-------|--------|-------------|
+  |       |        |             |
+  
+  #### Returns:
+  
+  `Array`: Array that contains the list of breakout rooms object that contains room id and name, returns null if participant calls this function
+  
+  #### Example:
+  
+  <CodeBlock slots="heading, code" languages="JavaScript"/>
+  
+  #### getBreakoutRoomsList
+  
+  ```javascript
+  let borList = customPodObject.getBreakoutRoomsList()
+  let room1Name = borList[0].name
+  let room1Id = borList[0].id
+  ````
 
-#### Returns:
-
-`Array`: Array that contains the list of breakout rooms object that contains room id and name, returns null if participant calls this function
-
-#### Example:
-
-<CodeBlock slots="heading, code" languages="JavaScript"/>
-
-#### getBreakoutRoomsList
-
-```javascript
-let borList = customPodObject.getBreakoutRoomsList()
-let room1Name = borList[0].name
-let room1Id = borList[0].id
-````
-
+</details>
 
 
 ## Properties
