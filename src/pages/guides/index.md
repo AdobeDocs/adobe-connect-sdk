@@ -5,7 +5,7 @@ description: This is the overview page of Adobe Connect Custom Pods SDK
 
 # Overview
 
-The Adobe Connect SDK provides developers with the tools to integrate and extend the capabilities of Adobe Connect. This SDK allows for the creation of custom applications that enhance the functionality of Adobe Connect meetings, webinars, and virtual classrooms. Developers can create applications using standard HTML and JavaScript programming. The SDK is a javascript library which provides a set of standard programming interfaces (Methods, Events, Properties, and Constants).  
+The Adobe Connect SDK provides developers with the tools to integrate and extend the capabilities of Adobe Connect. Developers can create applications using standard HTML and JavaScript programming. The SDK is a javascript library which provides a set of standard programming interfaces (Methods, Events, Properties, and Constants).  
 
 ## What are custom pods?
 
