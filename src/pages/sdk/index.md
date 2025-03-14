@@ -1,3 +1,8 @@
+---
+title: SDK Reference
+description: This page lists the SDK methods, properties, and events.  
+---
+
 # SDK References
 
 Read through the SDK methods, properties, and events. 
