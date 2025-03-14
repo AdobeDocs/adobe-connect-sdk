@@ -106,8 +106,6 @@ Read through the SDK methods, properties, and events.
   let room1Id = borList[0].id
   ````
 
-
-
 ## Properties
 
 
