@@ -17,7 +17,7 @@ Read through the SDK methods, properties, and events.
 
 **Returns**: `Void`
 
-#### Example
+#### Example:
 
 <CodeBlock slots="heading, code" languages="JavaScript"/>
 
