@@ -55,7 +55,7 @@ Method to send a sync message to other participants
 customPodObject.dispatchSyncMessage("name", ["John"], true, true)
 ```
 
-### getBreakoutRoomDetails (`breakoutId`)
+#### getBreakoutRoomDetails (`breakoutId`)
 **Available since**: 11.0
 
 [Host Only Function] This method will return an object with information about a breakout room
@@ -80,7 +80,7 @@ let name = borObj.name
 let id = borObj.id
 ```
 
-### getBreakoutRoomsList ()
+#### getBreakoutRoomsList ()
 **Available since**: 11.0
 
 [Host Only Function] This method will return the list of breakout rooms
