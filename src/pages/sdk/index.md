@@ -13,7 +13,7 @@ Read through the SDK methods, properties, and events.
 
   <summary>allowParticipantPublish(msgName, allowFlag)</summary>
     
-  ### allowParticipantPublish (`msgName`, `allowFlag`)
+  #### allowParticipantPublish (`msgName`, `allowFlag`)
   **Available since**: 10.8
   
   **Host Only** | This method will allow/block the participants from sending a sync event. 
@@ -40,7 +40,7 @@ Read through the SDK methods, properties, and events.
 
 <summary>dispatchSyncMessage(msgName, msgValue, isDelta, echoBack)</summary>
 
-### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
+#### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
 **Available since**: 10.0
 
 Method to send a sync message to other participants
