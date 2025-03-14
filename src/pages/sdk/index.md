@@ -16,7 +16,6 @@ Read through the SDK methods, properties, and events.
 | allowFlag | `boolean` | If `true` then participants will be allowed     |
 
 **Returns**: `Void`
-
 #### Example:
 
 <CodeBlock slots="heading, code" languages="JavaScript"/>
