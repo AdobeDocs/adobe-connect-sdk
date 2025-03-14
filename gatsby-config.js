@@ -32,9 +32,14 @@ module.exports = {
         title: 'SDK Reference',
         menu: [
           {
+            title: 'API Reference',
+            description: 'API Reference example',
+            path: '/api/index.md'
+          },
+          {
             title: 'SDK v11.0',
             description: 'SDK Reference v11',
-            path: '/api/index.md'
+            path: '/sdk/index.md'
           }
         ]
       },
