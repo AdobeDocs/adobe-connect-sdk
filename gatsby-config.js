@@ -21,7 +21,7 @@ module.exports = {
     ],
     pages: [
       {
-        title: 'Cat Analytics',
+        title: 'Adobe Connect SDK Reference',
         path: '/'
       },
       {
