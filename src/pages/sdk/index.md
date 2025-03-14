@@ -8,8 +8,8 @@ description: This page lists the SDK methods, properties, and events.
 Read through the SDK methods, properties, and events. 
 
 ## Methods
-
-### allowParticipantPublish (`msgName`, `allowFlag`)
+<details>
+<summary>### allowParticipantPublish (`msgName`, `allowFlag`)</summary>
 **Available since**: 10.8
 
 **Host Only** | This method will allow/block the participants from sending a sync event. 
@@ -30,7 +30,7 @@ Read through the SDK methods, properties, and events.
 ```javascript
 customPodObject.allowParticipantPublish("name", true)
 ```
-
+</details>
 ### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
 **Available since**: 10.0
 
