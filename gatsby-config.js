@@ -64,12 +64,29 @@ module.exports = {
             title: 'Code Samples',
             path: '/guides/code_samples/'
           }
-
         ]
       },
       {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
+        title: 'Submission Guidelines',
+        path: '/guides/submission_guidelines/',
+        pages: [
+          {
+            title: 'Creating a listing',
+            path: '/guides/submission_guidelines/create_listing/'
+          },
+          {
+            title: 'Listing details',
+            path: '/guides/submission_guidelines/listing_details/'
+          },
+          {
+            title: 'Version Details',
+            path: '/guides/submission_guidelines/version_details/'
+          },
+          {
+            title: 'Version Packaging',
+            path: '/guides/submission_guidelines/version_packaging/'
+          }
+        ]
       },
       {
         title: 'Migrating',
