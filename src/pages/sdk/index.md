@@ -1,8 +1,10 @@
-SDK References
+# SDK References
 
-Read through the SDK methods, events, and parameters
+Read through the SDK methods, properties, and events. 
 
-## protection(cloak, dagger) ⇒ <code>survival</code>
+## Methods
+
+### protection(cloak, dagger) ⇒ <code>survival</code>
 A quite wonderful function.
 
 **Kind**: global function
