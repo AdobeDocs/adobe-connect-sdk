@@ -9,9 +9,6 @@ Read through the SDK methods, properties, and events.
 
 ## Methods
 
-<details>
-
-  <summary>allowParticipantPublish(msgName, allowFlag)</summary>
     
   #### allowParticipantPublish (`msgName`, `allowFlag`)
   **Available since**: 10.8
@@ -34,11 +31,7 @@ Read through the SDK methods, properties, and events.
   ```javascript
   customPodObject.allowParticipantPublish("name", true)
   ```
-</details>
 
-<details>
-
-  <summary>dispatchSyncMessage(msgName, msgValue, isDelta, echoBack)</summary>
   
   #### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
   **Available since**: 10.0
@@ -62,12 +55,6 @@ Read through the SDK methods, properties, and events.
   ```javascript
   customPodObject.dispatchSyncMessage("name", ["John"], true, true)
   ```
-
-</details>
-
-<details>
-
-  <summary>getBreakoutRoomDetails (breakoutId)</summary>
   
   ### getBreakoutRoomDetails (`breakoutId`)
   **Available since**: 11.0
@@ -93,11 +80,6 @@ Read through the SDK methods, properties, and events.
   let name = borObj.name
   let id = borObj.id
   ```
-</details>
-
-<details>
-
-  <summary>getBreakoutRoomsList ()</summary>
 
   ### getBreakoutRoomsList ()
   **Available since**: 11.0
@@ -124,7 +106,6 @@ Read through the SDK methods, properties, and events.
   let room1Id = borList[0].id
   ````
 
-</details>
 
 
 ## Properties
