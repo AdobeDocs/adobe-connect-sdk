@@ -11,7 +11,7 @@ Read through the SDK methods, properties, and events.
 
 <details>
 
-  <summary>allowParticipantPublish(msgName, allowFlag)</summary>
+  ### <summary>allowParticipantPublish(msgName, allowFlag)</summary>
     
   ### allowParticipantPublish (`msgName`, `allowFlag`)
   **Available since**: 10.8
@@ -36,6 +36,10 @@ Read through the SDK methods, properties, and events.
   ```
 </details>
 
+<details>
+
+<summary>dispatchSyncMessage</summary>
+
 ### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
 **Available since**: 10.0
 
@@ -58,6 +62,8 @@ Method to send a sync message to other participants
 ```javascript
 customPodObject.dispatchSyncMessage("name", ["John"], true, true)
 ```
+
+</details>
 
 ### getBreakoutRoomDetails (`breakoutId`)
 **Available since**: 11.0
