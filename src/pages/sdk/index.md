@@ -4,7 +4,7 @@ Read through the SDK methods, properties, and events.
 
 ## Methods
 
-### allowParticipantPublish (msgName, allowFlag)
+### `allowParticipantPublish` (msgName, allowFlag)
 **Host Only** | This method will allow/block the participants from sending a sync event. 
 
 **Kind**: global function
