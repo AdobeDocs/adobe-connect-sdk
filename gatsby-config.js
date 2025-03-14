@@ -21,7 +21,7 @@ module.exports = {
     ],
     pages: [
       {
-        title: 'Adobe Connect SDK Reference',
+        title: 'Adobe Connect SDK',
         path: '/'
       },
       {
