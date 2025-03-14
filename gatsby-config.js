@@ -15,12 +15,8 @@ module.exports = {
   siteMetadata: {
     versions: [
       {
-        title: 'v2.0',
+        title: 'v11.0',
         selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
       }
     ],
     pages: [
