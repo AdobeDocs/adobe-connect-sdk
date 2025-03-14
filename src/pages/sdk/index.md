@@ -11,7 +11,7 @@ Read through the SDK methods, properties, and events.
 
 <details>
 
-  <summary>allowParticipantPublish(`msgName`, `allowFlag`)</summary>
+  <summary>allowParticipantPublish(msgName, allowFlag)</summary>
     
   ### allowParticipantPublish (`msgName`, `allowFlag`)
   **Available since**: 10.8
