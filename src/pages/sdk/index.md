@@ -524,7 +524,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `BUILD_NO`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -533,7 +533,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `CLEAR_STATUS`
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -542,7 +542,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `connectVersion`
-**Type:** Number
+**Type:** `number`
 
 **Available since:** 10.0
 
@@ -551,7 +551,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `DATE`
-**Type:** String
+**Type:** `string`
 
 **Available since:** 11.0
 
@@ -560,7 +560,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `DISAGREE`
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -569,7 +569,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `isSynced`
-**Type:** Number
+**Type:** `number`
 
 **Available since:** 10.0
 
@@ -578,7 +578,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `k_HOST`
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -586,7 +586,68 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 ---
 
+#### `k_PARTICIPANT`
+**Type:** `string`
 
+**Available since:** 10.8
+
+**Description:** A String value that denotes the participant role in connect application.
+
+---
+
+#### `k_PRESENTER`
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** A String value that denotes the presenter role in connect application.
+
+---
+
+#### `language`
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** A String value that denotes the language set in connect application.
+
+---
+
+#### `LAUGHTER`
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Laughter" status.
+
+---
+
+#### `LOWER_HAND`
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to clear "Raise Hand" status.
+
+---
+
+#### `playState`
+**Type:** `string`
+
+**Available since:** 10.5
+
+**Description:** A String that specifies the playState of the recording.
+
+---
+
+#### `podHeight`
+**Type:** `number`
+
+**Available since:** 10.8
+
+**Description:** A number that specifies the height of the pod containing the application.
+
+---
 
 
 
