@@ -25,7 +25,7 @@ Read through the SDK methods, properties, and events.
 ```javascript
 customPodObject.allowParticipantPublish("name", true)
 ```
-
+---
   
 ### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
 **Available since**: 10.0
@@ -49,6 +49,8 @@ Method to send a sync message to other participants
 ```javascript
 customPodObject.dispatchSyncMessage("name", ["John"], true, true)
 ```
+
+---
 
 #### getBreakoutRoomDetails (`breakoutId`)
 **Available since**: 11.0
@@ -75,6 +77,8 @@ let name = borObj.name
 let id = borObj.id
 ```
 
+---
+
 #### getBreakoutRoomsList ()
 **Available since**: 11.0
 
@@ -96,6 +100,8 @@ let room1Name = borList[0].name
 let room1Id = borList[0].id
 ````
 
+---
+
 #### getMyBreakoutRoomDetails ()
 **Available since**: 11.0
 
@@ -116,6 +122,8 @@ let myBorObj = customPodObject.getMyBreakoutRoomDetails()
 let borId = myBorObj.id
 let borName = myBorObj.name
 ````
+
+---
 
 #### getConfig ()
 **Available since**: 10.0
@@ -153,6 +161,8 @@ data.userID
 data.userName
 ````
 
+---
+
 #### getMeetingInfo ()
 **Available since**: 10.0
 
@@ -174,6 +184,8 @@ data.accountId
 data.lang
 data.url
 ````
+
+---
 
 #### getMyUserDetails ()
 **Available since**: 10.0
@@ -200,6 +212,8 @@ myUserData.data.id
 myUserData.data.status // this will be an array containing all the status set by this user
 ````
 
+---
+
 #### getPodInfo ()
 **Available since**: 10.0
 
@@ -220,6 +234,8 @@ let data = customPodObject.getPodInfo()
 data.isWhiteBoardOn
 data.podTitle
 ````
+
+---
 
 #### getUserDetails (`userID`)
 **Available since**: 10.0
@@ -250,6 +266,8 @@ userData.data.name
 userData.data.role
 ````
 
+---
+
 #### getUserList ()
 **Available since**: 10.0
 
@@ -271,6 +289,8 @@ userListData.message  // "Success" for live meeting and "Access Denied" for reco
 userListData.data  // Array containing userIds of the user present in meeting
 ````
 
+---
+
 #### isBreakOutSessionOn ()
 **Available since**: 10.0
 
@@ -290,6 +310,8 @@ This method will return a boolean that denotes whether Breakouts are started or 
 let flag = customPodObject.isBreakOutSessionOn()
 ````
 
+---
+
 #### isWhiteBoardOn ()
 **Available since**: 10.0
 
@@ -308,6 +330,8 @@ This method will return a boolean that denotes whether white board is started or
 ```javascript
 let flag = customPodObject.isWhiteBoardOn()
 ````
+
+---
 
 ### maximize (`show`)
 **Available since**: 10.8
@@ -333,6 +357,8 @@ customPodObject.maximize(true)  // this will maximize the pod but only if functi
 customPodObject.maximize(false) // this will restore the pod but only if function called from host side
 ````
 
+---
+
 #### podVisible (`showFlag`)
 **Available since**: 10.8
 
@@ -357,6 +383,8 @@ customPodObject.podVisible = true  // to show the pod
 customPodObject.podVisible = false // to hide the pod
 ````
 
+---
+
 #### setMenuBarControlsVisibility (`showFlag`)
 **Available since**: 10.8
 
@@ -380,6 +408,8 @@ This method will show/hide the app bar items
 customPodObject.setMenuBarControlsVisibility(true)  // to show the app bar items
 customPodObject.setMenuBarControlsVisibility(false) // to hide the app bar items
 ````
+
+---
 
 #### setMyStatus (`status`)
 **Available since**: 10.8
@@ -420,6 +450,8 @@ Accepted Status Values are:
 setMyStatus("speechQuestion")
 ````
 
+---
+
 #### setPodControlsVisibility (`showFlag`)
 **Available since**: 10.8
 
@@ -444,6 +476,8 @@ customPodObject.setPodControlsVisibility(true)  // to show the pod options
 customPodObject.setPodControlsVisibility(false) // to hide the pod options
 ````
 
+---
+
 ## Properties
 
 #### `AGREE`
@@ -453,6 +487,8 @@ customPodObject.setPodControlsVisibility(false) // to hide the pod options
 **Available since:** 10.8
 
 **Description:** A String value that is used to set the "Agree" user status.
+
+---
 
 #### `AGREE_DISAGREE_CLEAR`
 **Type:** `string`
@@ -466,12 +502,16 @@ customPodObject.setPodControlsVisibility(false) // to hide the pod options
 sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ````
 
+---
+
 #### `APPLAUSE`
 **Type:** `string`
 
 **Available since:** 10.8
 
 **Description:** A String value that is used to set the "Applause" status in connect.
+
+---
 
 #### `archiveDuration`
 **Type:** `number`
@@ -480,6 +520,8 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** This specifies the duration of the recording.
 
+---
+
 #### `BUILD_NO`
 
 **Type:** String
@@ -487,6 +529,8 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 **Available since:** 10.8
 
 **Description:** This String defaults to "2.0".
+
+---
 
 
 
