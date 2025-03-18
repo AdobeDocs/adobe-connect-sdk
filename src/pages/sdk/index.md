@@ -532,6 +532,62 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 ---
 
+#### `CLEAR_STATUS`
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. This String is used to clear the status.
+
+---
+
+#### `connectVersion`
+**Type:** Number
+
+**Available since:** 10.0
+
+**Description:** A boolean that tells which version of connect you are using.
+
+---
+
+#### `DATE`
+**Type:** String
+
+**Available since:** 11.0
+
+**Description:** This String value will give today's date.
+
+---
+
+#### `DISAGREE`
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Disagree" status.
+
+---
+
+#### `isSynced`
+**Type:** Number
+
+**Available since:** 10.0
+
+**Description:** A boolean that tells whether share pod is Synced or not.
+
+---
+
+#### `k_HOST`
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** A String value that denotes the host role in connect application.
+
+---
+
+
+
 
 
 ## Events
