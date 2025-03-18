@@ -533,6 +533,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `CLEAR_STATUS`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -542,6 +543,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `connectVersion`
+
 **Type:** `number`
 
 **Available since:** 10.0
@@ -551,6 +553,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `DATE`
+
 **Type:** `string`
 
 **Available since:** 11.0
@@ -560,6 +563,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `DISAGREE`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -569,6 +573,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `isSynced`
+
 **Type:** `number`
 
 **Available since:** 10.0
@@ -578,6 +583,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `k_HOST`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -587,6 +593,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `k_PARTICIPANT`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -596,6 +603,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `k_PRESENTER`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -605,6 +613,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `language`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -614,6 +623,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `LAUGHTER`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -623,6 +633,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `LOWER_HAND`
+
 **Type:** `string`
 
 **Available since:** 10.8
@@ -632,6 +643,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `playState`
+
 **Type:** `string`
 
 **Available since:** 10.5
@@ -641,6 +653,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `podHeight`
+
 **Type:** `number`
 
 **Available since:** 10.8
@@ -650,6 +663,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `podID`
+
 **Type:** Number
 
 **Available since:** 11.0
@@ -659,6 +673,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `podMinHeight`
+
 **Type:** Number
 
 **Available since:** 10.8
@@ -668,6 +683,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 #### `podMinWidth`
+
 **Type:** Number
 
 **Available since:** 10.8
@@ -677,5 +693,94 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 
+#### `podWidth`
+
+**Type:** Number
+
+**Available since:** 10.8
+
+**Description:** A number that specifies the width of the pod containing the application.
+
+---
+
+#### `RAISE_HAND`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Raise Hand" status.
+
+---
+
+#### `SLOW_DOWN`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Slow Down" status.
+
+---
+
+#### `SPEAK_LOUDER`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Speak Louder" status.
+
+---
+
+#### `SPEAK_SOFTER`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Speak Softer" status.
+
+---
+
+#### `SPEED_UP`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Speed Up" status.
+
+---
+
+#### `STEP_AWAY`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Step Away" status.
+
+---
+
+#### `STEP_IN`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Step In" status.
+
+---
+
+#### `VERSION`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** This String value that defaults to "2.0".
+
+---
 
 ## Events
