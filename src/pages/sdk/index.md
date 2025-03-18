@@ -664,7 +664,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `podID`
 
-**Type:** Number
+**Type:** `number`
 
 **Available since:** 11.0
 
@@ -674,7 +674,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `podMinHeight`
 
-**Type:** Number
+**Type:** `number`
 
 **Available since:** 10.8
 
@@ -684,7 +684,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `podMinWidth`
 
-**Type:** Number
+**Type:** `number`
 
 **Available since:** 10.8
 
@@ -695,7 +695,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `podWidth`
 
-**Type:** Number
+**Type:** `number`
 
 **Available since:** 10.8
 
@@ -705,7 +705,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `RAISE_HAND`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -715,7 +715,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `SLOW_DOWN`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -725,7 +725,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `SPEAK_LOUDER`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -735,7 +735,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `SPEAK_SOFTER`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -745,7 +745,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `SPEED_UP`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -755,7 +755,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `STEP_AWAY`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -765,7 +765,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `STEP_IN`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
@@ -775,7 +775,7 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 #### `VERSION`
 
-**Type:** String
+**Type:** `string`
 
 **Available since:** 10.8
 
