@@ -784,3 +784,295 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ---
 
 ## Events
+
+#### caughtUp
+
+**Available since**: 10.0
+
+**Description**: Event that indicates that the caughtUp phase is complete, but also is an indication that it is now safe to send messages more freely to the Connect application.
+
+**Event Payload**: 
+- `UNKNOWN` (Void)
+
+#### Example:
+```javascript
+customPodObject.registerCallback("caughtUp", () => ( this.caughtUp() ));
+this.caughtUp(){
+    console.log("Here my event got caught I will put my logic here");
+}
+````
+
+---
+
+#### playStateChanged
+
+**Available since**: 10.5
+
+**Description**: [RECORDING]: When playStateChanged from play to pause or vice versa.
+
+**Event Payload**: 
+- `event` (Object): this object has playState property
+
+#### Example:
+```javascript
+customPodObject.registerCallback("playStateChanged", (evt) => ( this.playStateChanged(evt) ));
+this.roleChanged(evt){
+    evt.playState
+    evt.type // 'playStateChanged'
+}
+````
+
+---
+
+#### podClosed
+
+**Available since**: 11.0
+
+**Description**: When pod is hidden / closed.
+
+**Event Payload**: 
+- `event` (Object): this object only contains event type
+
+#### Example:
+```javascript
+customPodObject.registerCallback("podClosed", (evt) => ( this.podClosed(evt) ));
+this.podClosed(evt){
+    evt.type // 'sizeChanged'
+}
+````
+
+---
+
+#### podTitleChanged
+
+**Available since**: 10.0
+
+**Description**: When title of pod in which custom pod is shared is changed.
+
+**Event Payload**: 
+- `event` (Object): this object has podTitle as property that gives the new title
+
+#### Example:
+```javascript
+customPodObject.registerCallback("podTitleChanged", (evt) => ( this.podTitleChanged(evt) ));
+this.podTitleChanged(evt){
+    evt.podTitle
+    evt.type // 'podTitleChanged'
+}
+````
+
+---
+
+#### pointerToggle
+
+**Available since**: 10.0
+
+**Description**: When state of pointer is toggled.
+
+**Event Payload**: 
+- `event` (Object): this object has isPointerOn property
+
+#### Example:
+```javascript
+customPodObject.registerCallback("pointerToggle", (evt) => ( this.pointerToggle(evt) ));
+this.pointerToggle(evt){
+    evt.isPointerOn
+    evt.type // 'pointerToggle'
+}
+````
+
+---
+
+#### roleChanged
+
+**Available since**: 10.0
+
+**Description**: When role of a user is changed.
+
+**Event Payload**: 
+- `event` (Object): this object has type, newRole and userId as property.
+
+#### Example:
+```javascript
+customPodObject.registerCallback("roleChanged", (evt) => ( this.roleChanged(evt) ));
+this.roleChanged(evt){
+    evt.newRole
+    evt.type // 'roleChanged'
+    evt.userId
+}
+````
+
+---
+
+#### sizeChanged
+
+**Available since**: 11.0
+
+**Description**: When pod Size is Changed.
+
+**Event Payload**: 
+- `event` (Object): this object has updated width and height as property
+
+#### Example:
+```javascript
+customPodObject.registerCallback("sizeChanged", (evt) => ( this.sizeChanged(evt) ));
+this.sizeChanged(evt){
+    evt.width
+    evt.height 
+    evt.type // 'sizeChanged'
+}
+````
+
+---
+
+#### syncMessageReceived
+
+**Available since**: 10.0
+
+**Description**: When sync messages are received.
+
+**Event Payload**: 
+- `event` (Object): this object has msgNm and msgVal
+
+#### Example:
+```javascript
+customPodObject.registerCallback("syncMessageReceived", (evt) => ( this.syncMessageReceived(evt) ));
+this.syncMessageReceived(evt){
+    evt.isDelta
+    evt.msgNm
+    evt.msgVal
+    evt.type // 'syncMessageReceived'
+    evt.uID  // userId of the user sending the sync message
+}
+````
+
+---
+
+#### syncModeChanged
+
+**Available since**: 10.0
+
+**Description**: When Sync Mode of share pod is changed.
+
+**Event Payload**: 
+- `event` (Object): this object has two properties didISync and isSynced
+
+#### Example:
+```javascript
+customPodObject.registerCallback("syncModeChanged", (evt) => ( this.syncModeChanged(evt) ));
+this.syncModeChanged(evt){
+    evt.didISync
+    evt.isSynced
+    evt.type // 'syncModeChanged'
+}
+````
+
+---
+
+#### userDetailsChanged
+
+**Available since**: 10.0
+
+**Description**: When user details get changed such as name of the user is changed.
+
+**Event Payload**: 
+- `event` (Object): this object has type property that denotes the type of the event, fullName and userId of the user
+
+#### Example:
+```javascript
+customPodObject.registerCallback("userDetailsChanged", (evt) => ( this.userDetailsChanged(evt) ));
+this.userDetailsChanged(evt){
+    evt.fullName
+    evt.name
+    evt.type // 'userDetailsChanged'
+    evt.userId
+}
+````
+
+---
+
+#### userJoined
+
+**Available since**: 10.0
+
+**Description**: Event fired when user enters the meeting.
+
+**Event Payload**: 
+- `event` (Object): this object has user property that holds details of the user joined and type property that shows type of event
+
+#### Example:
+```javascript
+customPodObject.registerCallback("userJoined", (evt) => ( this.userJoined(evt) ));
+this.userJoined(evt){
+    evt.type       // 'userJoined'
+    evt.user.breakoutId
+    evt.user.breakoutRoomName
+    evt.user.fullName
+    evt.user.id
+    evt.user.name
+    evt.user.role
+}
+````
+
+---
+
+#### userLeft
+
+**Available since**: 10.0
+
+**Description**: When user joins the meeting.
+
+**Event Payload**: 
+- `event` (Object): this object has type property and userId property
+
+#### Example:
+```javascript
+customPodObject.registerCallback("userLeft", (evt) => ( this.userLeft(evt) ));
+this.userLeft(evt){
+    evt.type  // "userLeft"
+    evt.userID
+}
+````
+
+---
+
+#### userStatusChanged
+
+**Available since**: 10.0
+
+**Description**: When user status gets changed.
+
+**Event Payload**: 
+- `event` (Object): this object has userId and status as its property
+
+#### Example:
+```javascript
+customPodObject.registerCallback("userStatusChanged", (evt) => ( this.userStatusChanged(evt) ));
+this.userStatusChanged(evt){
+    evt.type  // 'userStatusChanged'
+    evt.status  // Array containing all the status of this user
+    evt.userId
+}
+````
+
+---
+
+#### whiteBoardToggle
+
+**Available since**: 10.0
+
+**Description**: When state of whiteboard is toggled.
+
+**Event Payload**: 
+- `event` (Object): this object has isWhiteBoardOn property
+
+#### Example:
+```javascript
+customPodObject.registerCallback("whiteBoardToggle", (evt) => ( this.whiteBoardToggle(evt) ));
+this.whiteBoardToggle(evt){
+    evt.isWhiteBoardOn
+    evt.type // 'whiteBoardToggle'
+}
+````
+
+---
