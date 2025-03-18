@@ -649,6 +649,33 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 ---
 
+#### `podID`
+**Type:** Number
+
+**Available since:** 11.0
+
+**Description:** A number that specifies the podId in which custom pod is loaded.
+
+---
+
+#### `podMinHeight`
+**Type:** Number
+
+**Available since:** 10.8
+
+**Description:** A number that specifies the minimum height of the pod containing the application.
+
+---
+
+#### `podMinWidth`
+**Type:** Number
+
+**Available since:** 10.8
+
+**Description:** A number that specifies the minimum width of the pod containing the application.
+
+---
+
 
 
 ## Events
