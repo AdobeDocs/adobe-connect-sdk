@@ -444,9 +444,50 @@ customPodObject.setPodControlsVisibility(true)  // to show the pod options
 customPodObject.setPodControlsVisibility(false) // to hide the pod options
 ````
 
-
-
 ## Properties
+
+#### `AGREE`
+
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** A String value that is used to set the "Agree" user status.
+
+#### `AGREE_DISAGREE_CLEAR`
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** A String value that is used to clear the Agree or disagree status.
+
+**Example:**
+````javascript
+sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
+````
+
+#### `APPLAUSE`
+**Type:** `string`
+
+**Available since:** 10.8
+
+**Description:** A String value that is used to set the "Applause" status in connect.
+
+#### `archiveDuration`
+**Type:** `number`
+
+**Available since:** 10.5
+
+**Description:** This specifies the duration of the recording.
+
+#### `BUILD_NO`
+
+**Type:** String
+
+**Available since:** 10.8
+
+**Description:** This String defaults to "2.0".
+
 
 
 ## Events
