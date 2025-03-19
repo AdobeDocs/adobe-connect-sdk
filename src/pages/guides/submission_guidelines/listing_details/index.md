@@ -13,6 +13,12 @@ This is the landing page to create a submission. Note the following items for Ad
 2. The developer's role and organization name are listed in the upper right-hand corner. If any profile details need to be edited, click the "Edit Profile" tab.
 3. The menu at the top of the screen indicates the listing status, the platform, the last modified date, and the Pod ID. The listing details for the app are ready to be added now.
 
-Once details are added to the General tab, the developer can move onto the media tab to add details like Custom Pod icon and screenshots. 
+Once details are added to the **General** tab, the developer can move onto the **Media** tab to add details like Custom Pod icon and screenshots. 
 
 ![Screenshot of listing details page - Media](./screenshot_2.png)
+
+After adding the Custom Pod icon, screenshots, and screenshot captions, the developer can move onto next tab - **Tags**. 
+
+![Screenshot of listing details page - Tags](./screenshot_3.png)
+
+
