@@ -21,4 +21,10 @@ After adding the Custom Pod icon, screenshots, and screenshot captions, the deve
 
 ![Screenshot of listing details page - Tags](./screenshot_3.png)
 
+Here, the category is a required field, and tags are optional. Select the categories (upto two) relevant for your custom pod, and then move onto the next section - **Miscellaneous**. 
+
+![Screenshot of listing details page - Miscellaneous](./screenshot_4.png)
+
+While Privacy Policy and Terms of Use are optional fields on Developer Distribution, we highly recommend linking to your privacy policy and terms of use documents. At this point, Adobe Connect Custom Pod reviewers will reject any Custom Pods submission without a valid privacy policy or terms of use document. 
+
 
