@@ -25,6 +25,8 @@ Here, the category is a required field, and tags are optional. Select the catego
 
 ![Screenshot of listing details page - Miscellaneous](./screenshot_4.png)
 
-While Privacy Policy and Terms of Use are optional fields on Developer Distribution, we highly recommend linking to your privacy policy and terms of use documents. At this point, Adobe Connect Custom Pod reviewers will reject any Custom Pods submission without a valid privacy policy or terms of use document. 
+While privacy policy and terms of use are optional fields on Developer Distribution, we highly recommend linking to your privacy policy and terms of use documents. At this point, Adobe Connect Custom Pod reviewers will reject any Custom Pods submission without a valid privacy policy or terms of use documents. 
+
+Once this is completed, the next step is to add **Version details**. Click on **Save draft & add version** on the top-right of the screen. 
 
 
