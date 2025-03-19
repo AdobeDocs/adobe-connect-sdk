@@ -10,6 +10,8 @@ Clicking on ‘**Create a new listing**’ lands the developer on the modal over
 
 ![Screenshot of selecting the Adobe Connect card while creating a new listing](./screenshot_3.png)
 
-Once the listing type has been chosen, a new pod listing gets created. From here, the next steps are to add the details of the listing. 
+Once the listing type has been chosen, a new pod listing gets created. 
 
 ![Screenshot of selecting the Adobe Connect card while creating a new listing](./screenshot_4.png)
+
+From here, the next step is to add the details of the Custom Pod listing. 
