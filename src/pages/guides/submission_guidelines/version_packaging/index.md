@@ -25,5 +25,16 @@ Once you have all your files organized and tested, compress them into a ZIP file
 
 ## Test and verify locally
 
-
+Upload the .pod file into a share pod inside an Adobe Connect room to test it locally. If the Custom Pod works as expected, you are now ready to submit the Custom Pod package through Developer Distribution. 
    
+## Example Directory Structure
+
+MyCustomPod/
+├── index.html
+├── breeze-manifest.xml
+├── assets/
+│   ├── style.css
+│   ├── script.js
+│   └── image.png
+└── libs/
+    └── connect_customPodSDK.js
