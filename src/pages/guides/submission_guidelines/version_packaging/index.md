@@ -21,6 +21,8 @@ The custom pod package should include a breeze-manifest.xml file in the root dir
 
 ## Compress the file
 
+Once you have all your files organized and tested, compress them into a ZIP file. Ensure the ZIP file maintains the directory structure. Change the extension type from `.zip` to `.pod`. Please note that renaming the custom pod package to a `.pod` extension is required if you are submitting the Custom Pod to Developer Distribution. 
+
 ## Test and verify locally
 
 
