@@ -5,13 +5,19 @@ Learn about how to package your custom pod for successfully submitting to Develo
 ## Organizing the files
 
 Ensure all the necessary files for your custom pod are in a single directory. This includes:
-- **HTMLfiles**: The main files that contain the code for your custom pod.
+- **HTML files**: The main files that contain the code for your custom pod.
 - **Assets**: Any images, stylesheets, scripts, or other resources your custom pod needs.
 - **Configuration files**: Any XML files that define settings or parameters for your pod.
 
-  
-
 ## Create a manifest
+
+The custom pod package should include a breeze-manifest.xml file in the root directory. The manifest file should include the following information: 
+
+- **Document type**: Specify the type as `custom-pod`.
+- **ID and version**: Unique identifier and version number for your pod. The ID should be have a reverse domain name notation like com.adobe.connect.podName. Version should be of the form `x.y.z` where x, y, and z are numeric.  
+- **Minimum Connect Server Version**: The minimum version of Adobe Connect required to run your custom pod.
+- **minimumSDKversion**: The minimum Adobe Connect SDK version required to run your custom pod.   
+- **Assets**: List all the assets (files and directories) your pod uses.
 
 ## Compress the file
 
