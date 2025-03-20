@@ -39,6 +39,6 @@ MyCustomPod/
 │   ├── style.css
 │   ├── script.js
 │   └── image.png
-└── libs/
+└── lib/
     └── connect_customPodSDK.js
 ```
