@@ -15,7 +15,7 @@ The custom pod package should include a breeze-manifest.xml file in the root dir
 
 - **Document type**: Specify the type as `custom-pod`.
 - **ID and version**: Unique identifier and version number for your pod. The ID should be have a reverse domain name notation like com.adobe.connect.podName. Version should be of the form `x.y.z` where x, y, and z are numeric.  
-- **Minimum Connect Server Version**: The minimum version of Adobe Connect required to run your custom pod.
+- **minimumConnectServerVersion**: The minimum version of Adobe Connect required to run your custom pod.
 - **minimumSDKversion**: The minimum Adobe Connect SDK version required to run your custom pod.   
 - **Assets**: List all the assets (files and directories) your pod uses.
 
