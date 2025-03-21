@@ -44,7 +44,8 @@ onConfigured = function () {
 <breeze-manifest version="1.0"
     xmlns="http://breeze.macromedia.com/ns/breezemanifest" generator="ZB">
     <document type="custom-pod" id="com.adobe.connect.reference" version="1.0.001"
-minimumConnectMobileVersion="2.4" minimumSDKversion="11.2.000" minimumConnectServerVersion="11.2.0"/>
+    minimumConnectMobileVersion="2.4" minimumSDKversion="11.2.000"
+    minimumConnectServerVersion="11.2.0"/>
     <assets>
         <asset type="document-view">
             <entry href="CustomPod.htm" href-html5="CustomPod.htm" />
