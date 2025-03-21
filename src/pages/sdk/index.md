@@ -4,7 +4,7 @@ Read through the SDK methods, properties, and events.
 
 ## Methods
     
-### allowParticipantPublish (`msgName`, `allowFlag`)
+#### allowParticipantPublish (`msgName`, `allowFlag`)
 **Available since**: 10.8
 
 **Host Only** | This method will allow/block the participants from sending a sync event. 
@@ -27,7 +27,7 @@ customPodObject.allowParticipantPublish("name", true)
 ```
 ---
   
-### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
+#### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
 **Available since**: 10.0
 
 Method to send a sync message to other participants
