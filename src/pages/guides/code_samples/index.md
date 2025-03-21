@@ -10,7 +10,8 @@ Learn how to initialize the SDK library, structure the breeze-manifest file, and
 ```javascript
 //Initialize library
 
-// while using React it is recommended that you initialize the librar inside componentDidMount method
+// while using React it is recommended that you initialize the library
+// inside componentDidMount method
 var cpu = ConnectCustomSDK.SyncConnector || {};
 
 // to inform the main client that library is getting initialised
