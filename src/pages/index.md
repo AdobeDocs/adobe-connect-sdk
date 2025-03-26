@@ -15,12 +15,12 @@ Adobe Connect enables customers to extend the out-of-the-box functionality of Ad
 
 #### Resources
 
-* [SDK Reference](https://developer.adobe.com)
-* [Code Samples](https://github.com/AdobeDocs/dev-site)
+* [SDK Reference](https://developer.adobe.com/adobe-connect-sdk/sdk/)
+* [Code Samples](https://developer.adobe.com/adobe-connect-sdk/guides/code_samples/)
 
 ## Overview
 
-This documentation provides instructions for Adobe Connect Custom Pods SDK v11. For detailed SDK reference, see [Adobe Connect SDK reference](https://github.com/AdobeDocs/dev-site).
+This documentation provides instructions for Adobe Connect Custom Pods SDK v11. For detailed SDK reference, see [Adobe Connect SDK reference](https://developer.adobe.com/adobe-connect-sdk/sdk/).
 
 Custom pods can be used to allow multi-user interactions within a session, they can provide a synchronized display of information for all users and can even send and receive data from external websites. Simple examples include a countdown-timer that lets a host show everyone when the meeting will start, or an interactive game that displays a leaderboard with all the participants’ scores, or a map application that combines user location data with map data from an external mapping website. 
 
@@ -62,9 +62,5 @@ Read through the complete reference to the Methods, Properties, and Events avail
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-## Contributing
 
-We encourage you to participate in our open documentation initiative, if you have suggestions, corrections, additions
-or deletions for this documentation, check out the source from [this github repo](https://github.com/adobe/gatsby-theme-spectrum-example), and submit a pull
-request with your contribution. For more information, refer to the [contributing page](support/contribute/).
 
