@@ -6,7 +6,6 @@
     - [Guides](guides)
     - SDK Reference
         - [SDK v11.0](sdk/index.md)
-    - [Support](support/)
 
 - subPages:
     - [Getting Started](guides/) 
