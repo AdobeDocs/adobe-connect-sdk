@@ -5,7 +5,6 @@
     - [Adobe Connect SDK](https://developer.adobe.com/adobe-connect-sdk/)
     - [Guides](guides)
     - SDK Reference
-        - [API Reference](api/index.md)
         - [SDK v11.0](sdk/index.md)
     - [Support](support/)
 
@@ -21,9 +20,3 @@
         - [Version Details](guides/submission_guidelines/version_details/) 
         - [Version Packaging](guides/submission_guidelines/version_packaging/) 
     - [Brand Guidelines](guides/brand_guidelines/) 
-    - [Overview](support/) header
-        - [Help](support/) 
-        - [FAQ](support/FAQ/) 
-        - [How to contribute](support/contribute/) 
-    - [Community](support/community/) header
-        - [Information](support/community/) 
