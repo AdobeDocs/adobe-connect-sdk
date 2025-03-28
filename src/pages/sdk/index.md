@@ -50,7 +50,6 @@ Method to send a sync message to other participants
 customPodObject.dispatchSyncMessage("name", ["John"], true, true)
 ```
 
----
 
 #### getBreakoutRoomDetails (`breakoutId`)
 **Available since**: 11.0
@@ -77,7 +76,6 @@ let name = borObj.name
 let id = borObj.id
 ```
 
----
 
 #### getBreakoutRoomsList ()
 **Available since**: 11.0
@@ -100,7 +98,6 @@ let room1Name = borList[0].name
 let room1Id = borList[0].id
 ````
 
----
 
 #### getMyBreakoutRoomDetails ()
 **Available since**: 11.0
@@ -123,7 +120,6 @@ let borId = myBorObj.id
 let borName = myBorObj.name
 ````
 
----
 
 #### getConfig ()
 **Available since**: 10.0
@@ -161,7 +157,6 @@ data.userID
 data.userName
 ````
 
----
 
 #### getMeetingInfo ()
 **Available since**: 10.0
@@ -185,7 +180,6 @@ data.lang
 data.url
 ````
 
----
 
 #### getMyUserDetails ()
 **Available since**: 10.0
@@ -212,7 +206,6 @@ myUserData.data.id
 myUserData.data.status // this will be an array containing all the status set by this user
 ````
 
----
 
 #### getPodInfo ()
 **Available since**: 10.0
@@ -235,7 +228,6 @@ data.isWhiteBoardOn
 data.podTitle
 ````
 
----
 
 #### getUserDetails (`userID`)
 **Available since**: 10.0
@@ -266,7 +258,6 @@ userData.data.name
 userData.data.role
 ````
 
----
 
 #### getUserList ()
 **Available since**: 10.0
@@ -289,7 +280,6 @@ userListData.message  // "Success" for live meeting and "Access Denied" for reco
 userListData.data  // Array containing userIds of the user present in meeting
 ````
 
----
 
 #### isBreakOutSessionOn ()
 **Available since**: 10.0
@@ -310,7 +300,6 @@ This method will return a boolean that denotes whether Breakouts are started or 
 let flag = customPodObject.isBreakOutSessionOn()
 ````
 
----
 
 #### isWhiteBoardOn ()
 **Available since**: 10.0
@@ -331,7 +320,6 @@ This method will return a boolean that denotes whether white board is started or
 let flag = customPodObject.isWhiteBoardOn()
 ````
 
----
 
 ### maximize (`show`)
 **Available since**: 10.8
@@ -357,7 +345,6 @@ customPodObject.maximize(true)  // this will maximize the pod but only if functi
 customPodObject.maximize(false) // this will restore the pod but only if function called from host side
 ````
 
----
 
 #### podVisible (`showFlag`)
 **Available since**: 10.8
@@ -383,7 +370,6 @@ customPodObject.podVisible = true  // to show the pod
 customPodObject.podVisible = false // to hide the pod
 ````
 
----
 
 #### setMenuBarControlsVisibility (`showFlag`)
 **Available since**: 10.8
@@ -409,7 +395,6 @@ customPodObject.setMenuBarControlsVisibility(true)  // to show the app bar items
 customPodObject.setMenuBarControlsVisibility(false) // to hide the app bar items
 ````
 
----
 
 #### setMyStatus (`status`)
 **Available since**: 10.8
@@ -450,7 +435,6 @@ Accepted Status Values are:
 setMyStatus("speechQuestion")
 ````
 
----
 
 #### setPodControlsVisibility (`showFlag`)
 **Available since**: 10.8
@@ -476,7 +460,6 @@ customPodObject.setPodControlsVisibility(true)  // to show the pod options
 customPodObject.setPodControlsVisibility(false) // to hide the pod options
 ````
 
----
 
 ## Properties
 
@@ -488,7 +471,6 @@ customPodObject.setPodControlsVisibility(false) // to hide the pod options
 
 **Description:** A String value that is used to set the "Agree" user status.
 
----
 
 #### `AGREE_DISAGREE_CLEAR`
 **Type:** `string`
@@ -502,7 +484,6 @@ customPodObject.setPodControlsVisibility(false) // to hide the pod options
 sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 ````
 
----
 
 #### `APPLAUSE`
 **Type:** `string`
@@ -511,7 +492,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A String value that is used to set the "Applause" status in connect.
 
----
 
 #### `archiveDuration`
 **Type:** `number`
@@ -520,7 +500,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** This specifies the duration of the recording.
 
----
 
 #### `BUILD_NO`
 
@@ -530,7 +509,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** This String defaults to "2.0".
 
----
 
 #### `CLEAR_STATUS`
 
@@ -540,7 +518,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. This String is used to clear the status.
 
----
 
 #### `connectVersion`
 
@@ -550,7 +527,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A boolean that tells which version of connect you are using.
 
----
 
 #### `DATE`
 
@@ -560,7 +536,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** This String value will give today's date.
 
----
 
 #### `DISAGREE`
 
@@ -570,7 +545,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Disagree" status.
 
----
 
 #### `isSynced`
 
@@ -580,7 +554,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A boolean that tells whether share pod is Synced or not.
 
----
 
 #### `k_HOST`
 
@@ -590,7 +563,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A String value that denotes the host role in connect application.
 
----
 
 #### `k_PARTICIPANT`
 
@@ -600,7 +572,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A String value that denotes the participant role in connect application.
 
----
 
 #### `k_PRESENTER`
 
@@ -610,7 +581,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A String value that denotes the presenter role in connect application.
 
----
 
 #### `language`
 
@@ -620,7 +590,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A String value that denotes the language set in connect application.
 
----
 
 #### `LAUGHTER`
 
@@ -630,7 +599,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Laughter" status.
 
----
 
 #### `LOWER_HAND`
 
@@ -640,7 +608,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to clear "Raise Hand" status.
 
----
 
 #### `playState`
 
@@ -650,7 +617,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A String that specifies the playState of the recording.
 
----
 
 #### `podHeight`
 
@@ -660,7 +626,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A number that specifies the height of the pod containing the application.
 
----
 
 #### `podID`
 
@@ -670,7 +635,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A number that specifies the podId in which custom pod is loaded.
 
----
 
 #### `podMinHeight`
 
@@ -680,7 +644,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A number that specifies the minimum height of the pod containing the application.
 
----
 
 #### `podMinWidth`
 
@@ -690,7 +653,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A number that specifies the minimum width of the pod containing the application.
 
----
 
 
 #### `podWidth`
@@ -701,7 +663,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** A number that specifies the width of the pod containing the application.
 
----
 
 #### `RAISE_HAND`
 
@@ -711,7 +672,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Raise Hand" status.
 
----
 
 #### `SLOW_DOWN`
 
@@ -721,7 +681,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Slow Down" status.
 
----
 
 #### `SPEAK_LOUDER`
 
@@ -731,7 +690,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Speak Louder" status.
 
----
 
 #### `SPEAK_SOFTER`
 
@@ -741,7 +699,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Speak Softer" status.
 
----
 
 #### `SPEED_UP`
 
@@ -751,7 +708,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Speed Up" status.
 
----
 
 #### `STEP_AWAY`
 
@@ -761,7 +717,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Step Away" status.
 
----
 
 #### `STEP_IN`
 
@@ -771,7 +726,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** User status value used as an argument of setMyStatus function. A String value that is used to set the "Step In" status.
 
----
 
 #### `VERSION`
 
@@ -781,7 +735,6 @@ sdkobject.setMyStatus(sdkObject.AGREE_DISAGREE_CLEAR)
 
 **Description:** This String value that defaults to "2.0".
 
----
 
 ## Events
 
@@ -802,7 +755,6 @@ this.caughtUp(){
 }
 ````
 
----
 
 #### playStateChanged
 
@@ -822,7 +774,6 @@ this.roleChanged(evt){
 }
 ````
 
----
 
 #### podClosed
 
@@ -841,7 +792,6 @@ this.podClosed(evt){
 }
 ````
 
----
 
 #### podTitleChanged
 
@@ -861,7 +811,6 @@ this.podTitleChanged(evt){
 }
 ````
 
----
 
 #### pointerToggle
 
@@ -881,7 +830,6 @@ this.pointerToggle(evt){
 }
 ````
 
----
 
 #### roleChanged
 
@@ -902,7 +850,6 @@ this.roleChanged(evt){
 }
 ````
 
----
 
 #### sizeChanged
 
@@ -923,7 +870,6 @@ this.sizeChanged(evt){
 }
 ````
 
----
 
 #### syncMessageReceived
 
@@ -946,7 +892,6 @@ this.syncMessageReceived(evt){
 }
 ````
 
----
 
 #### syncModeChanged
 
@@ -967,7 +912,6 @@ this.syncModeChanged(evt){
 }
 ````
 
----
 
 #### userDetailsChanged
 
@@ -989,7 +933,6 @@ this.userDetailsChanged(evt){
 }
 ````
 
----
 
 #### userJoined
 
@@ -1014,7 +957,6 @@ this.userJoined(evt){
 }
 ````
 
----
 
 #### userLeft
 
@@ -1034,7 +976,6 @@ this.userLeft(evt){
 }
 ````
 
----
 
 #### userStatusChanged
 
@@ -1055,7 +996,6 @@ this.userStatusChanged(evt){
 }
 ````
 
----
 
 #### whiteBoardToggle
 
@@ -1075,4 +1015,3 @@ this.whiteBoardToggle(evt){
 }
 ````
 
----
