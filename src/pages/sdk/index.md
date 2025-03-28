@@ -25,7 +25,7 @@ Read through the SDK methods, properties, and events.
 ```javascript
 customPodObject.allowParticipantPublish("name", true)
 ```
----
+
   
 #### dispatchSyncMessage (`msgName`, `msgValue`, `isDelta`, `echoBack`)
 **Available since**: 10.0
