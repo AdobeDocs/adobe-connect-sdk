@@ -18,8 +18,6 @@ Read through the SDK methods, properties, and events.
 **Returns**: `Void`
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
-
 #### allowParticipantPublish
 
 ```javascript
@@ -41,8 +39,6 @@ Method to send a sync message to other participants
 | echoBack | `boolean` | if `true`, then this instance of the custom pod will receive a corresponding sync message back, otherwise only the other participants will receive this message.     |
 
 #### Example:
-
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### dispatchSyncMessage
 
@@ -66,7 +62,6 @@ customPodObject.dispatchSyncMessage("name", ["John"], true, true)
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### getBreakoutRoomDetails
 
@@ -88,7 +83,6 @@ let id = borObj.id
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### getBreakoutRoomsList
 
@@ -110,8 +104,6 @@ This method will return the Object that contains the details of the bor in which
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
-
 #### getMyBreakoutRoomDetails
 
 ```javascript
@@ -131,8 +123,6 @@ This method returns configuration of the meeting like accountId, isAddin, isWhit
 `Object`: configuration
 
 #### Example:
-
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### getConfig
 
@@ -169,7 +159,6 @@ This method will return a meeting info object.
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### getMeetingInfo
 
@@ -192,7 +181,6 @@ This method will return a user data object for the current user
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### getMyUserDetails
 
@@ -218,8 +206,6 @@ This method will return a pod info object
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
-
 #### getPodInfo
 
 ```javascript
@@ -243,8 +229,6 @@ data.podTitle
 `Object`: object with user details, return null if participant call this function
 
 #### Example:
-
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### getUserDetails
 
@@ -270,8 +254,6 @@ This method will return the object that has userIds of all the users in the meet
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
-
 #### getUserList
 
 ```javascript
@@ -292,8 +274,6 @@ This method will return a boolean that denotes whether Breakouts are started or 
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
-
 #### isBreakOutSessionOn
 
 ```javascript
@@ -311,8 +291,6 @@ This method will return a boolean that denotes whether white board is started or
 `Boolean`: flag that denotes whether whiteboard is started or not
 
 #### Example:
-
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### isWhiteBoardOn
 
@@ -336,7 +314,6 @@ let flag = customPodObject.isWhiteBoardOn()
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### maximize
 
@@ -361,7 +338,6 @@ This method will show/hide the sharePod in which custom pod is loaded
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### podVisible
 
@@ -386,7 +362,6 @@ This method will show/hide the app bar items
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### setMenuBarControlsVisibility
 
@@ -427,7 +402,6 @@ Accepted Status Values are:
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### setMyStatus
 
@@ -451,7 +425,6 @@ This method will show/hide the pod menu items.
 
 #### Example:
 
-<CodeBlock slots="heading, code" languages="JavaScript"/>
 
 #### setPodControlsVisibility
 
