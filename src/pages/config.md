@@ -3,7 +3,7 @@
 
 - pages:
     - [Adobe Connect SDK](https://developer.adobe.com/adobe-connect-sdk/)
-    - [Guides](guides)
+    - [Guides](guides/index.md)
     - SDK Reference
         - [SDK v11.0](sdk/index.md)
 
