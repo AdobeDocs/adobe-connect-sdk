@@ -30,19 +30,19 @@ Custom pods can be used to allow multi-user interactions within a session, they 
 
 ### Development Basics
 
-[Development Considerations](guides/development_considerations/)
+[Development Considerations](guides/development_considerations/index.md)
 
 Provides the development considerations while using Adobe Connect SDK to develop custom pods
 
 <DiscoverBlock slots="link, text"/>
 
-[Custom Pods Structure](guides/custom_pod_structure/)
+[Custom Pods Structure](guides/custom_pod_structure/index.md)
 
 Understand the structure of a Custom Pods package
 
 <DiscoverBlock slots="link, text"/>
 
-[Message Handling](guides/message_handling/)
+[Message Handling](guides/message_handling/index.md)
 
 Learn how Custom Pods can communicate with other components of a room using Messages
 
@@ -50,13 +50,13 @@ Learn how Custom Pods can communicate with other components of a room using Mess
 
 ### Guides
 
-[Create a New Listing](guides/submission_guidelines/create_listing/)
+[Create a New Listing](guides/submission_guidelines/create_listing/index.md)
 
 Learn about creating and submitting a custom pod listing on Developer Distribution
 
 <DiscoverBlock slots="link, text"/>
 
-[SDK Reference](/sdk/)
+[SDK Reference](/sdk/index.md)
 
 Read through the complete reference to the Methods, Properties, and Events available in the SDK. 
 
