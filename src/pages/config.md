@@ -3,19 +3,19 @@
 
 - pages:
     - [Adobe Connect SDK](https://developer.adobe.com/adobe-connect-sdk/)
-    - [Guides](guides)
+    - [Guides](guides/index.md)
     - SDK Reference
         - [SDK v11.0](sdk/index.md)
 
 - subPages:
-    - [Getting Started](guides/) 
-        - [Development Considerations](guides/development_considerations/) 
-        - [Custom Pod Structure](guides/custom_pod_structure/) 
-        - [Message Handling](guides/message_handling/) 
-        - [Code Samples](guides/code_samples/) 
-    - [Submission Guidelines](guides/submission_guidelines/) 
-        - [Creating a listing](guides/submission_guidelines/create_listing/) 
-        - [Listing details](guides/submission_guidelines/listing_details/) 
-        - [Version Details](guides/submission_guidelines/version_details/) 
-        - [Version Packaging](guides/submission_guidelines/version_packaging/) 
-    - [Brand Guidelines](guides/brand_guidelines/) 
+    - [Getting Started](guides/index.md) 
+        - [Development Considerations](guides/development_considerations/index.md) 
+        - [Custom Pod Structure](guides/custom_pod_structure/index.md) 
+        - [Message Handling](guides/message_handling/index.md) 
+        - [Code Samples](guides/code_samples/index.md) 
+    - [Submission Guidelines](guides/submission_guidelines/index.md) 
+        - [Creating a listing](guides/submission_guidelines/create_listing/index.md) 
+        - [Listing details](guides/submission_guidelines/listing_details/index.md) 
+        - [Version Details](guides/submission_guidelines/version_details/index.md) 
+        - [Version Packaging](guides/submission_guidelines/version_packaging/index.md) 
+    - [Brand Guidelines](guides/brand_guidelines/index.md) 
