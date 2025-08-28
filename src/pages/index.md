@@ -62,6 +62,3 @@ Read through the complete reference to the Methods, Properties, and Events avail
 
 <DiscoverBlock width="100%" slots="heading, link, text"/>
 
-
-
-test
