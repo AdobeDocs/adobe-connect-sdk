@@ -51,11 +51,3 @@ Validates markdown syntax, links, content structure, and Adobe style guidelines.
 ## Support
 
 Join `#adobe-developer-website` Slack channel for help.
-
-## Tech Stack
-
-- Gatsby 4.22.0 with Adobe AIO Theme
-- Node.js ES modules  
-- npm
-- GitHub Actions CI/CD
-- Adobe EDS hosting
