@@ -1,106 +1,61 @@
 # Adobe Connect SDK Documentation
 
-This repository contains the documentation site for the Adobe Connect SDK. The site is deployed to EDS for Adobe Developer documentation.
+Adobe Connect SDK documentation site deployed to EDS.
+The production address is https://developer.adobe.com/adobe-connect-sdk/
 
-## 🚀 Quick Start
+## Quick Start
 
-### Development
-Start the local development server:
+Start development server:
 ```bash
 npm run dev
 ```
-This runs a custom Express server on port 3003 (or the port specified in `DEV_PORT` environment variable) that serves static files from `src/pages/`.
+Runs Express server on port 3003 serving files from `src/pages/`.
 
-## 📁 Project Structure
+## Commands
 
-```
-src/pages/          # Documentation content in Markdown
-static/            # Static assets (images, downloads, etc.)
-.github/workflows/ # CI/CD workflows for linting and deployment
-```
+**Development**
+- `npm run dev` - Start local server
 
-## 🛠️ Available Commands
+**Content Management**
+- `npm run buildNavigation` - Generate navigation structure
+- `npm run buildRedirections` - Build URL redirections  
+- `npm run renameFiles` - Rename files to Adobe conventions
+- `npm run normalizeLinks` - Normalize internal/external links
 
-This project includes several utility commands for content management and validation:
+**Validation**
+- `npm run lint` - Run linting checks
 
-### Development
-- **`npm run dev`** - Start local development server using the custom Express server
+**Site Features**
+- `npm run buildSiteWideBanner` - Generate site-wide banner
 
-### Content Management
-- **`npm run buildNavigation`** - Generate navigation structure from directory hierarchy
-- **`npm run buildRedirections`** - Build URL redirections based on content changes
-- **`npm run renameFiles`** - Rename files according to Adobe Developer site conventions
-- **`npm run normalizeLinks`** - Normalize internal and external links throughout the documentation
+*All commands use `@AdobeDocs/adp-devsite-utils` for standardized tooling.*
 
-### Content Validation
-- **`npm run lint`** - Run comprehensive linting checks on documentation content
+## Linting
 
-### Site Features
-- **`npm run buildSiteWideBanner`** - Generate site-wide banner content for announcements
+**Automated**: Runs on PRs when `src/pages/**` files change
+**Manual**: `npm run lint`
 
-All utility commands use the `@AdobeDocs/adp-devsite-utils` package, which provides standardized tooling across Adobe Developer documentation sites.
+Validates markdown syntax, links, content structure, and Adobe style guidelines.
 
-## ✅ Linting & Quality Assurance
+## Navigation
 
-### Automated Linting
-The project includes automated linting that runs on every pull request targeting the `main` branch. The linting process:
+1. Edit directory hierarchy in `src/pages/`
+2. Update `src/pages/config.md` 
+3. Run `npm run buildNavigation`
 
-- **Triggers**: Automatically runs on PRs when files in `src/pages/**` are modified
-- **Tools**: Uses the standardized Adobe Developer site linting rules via `adp-devsite-utils`
-- **Scope**: Validates markdown syntax, link integrity, content structure, and Adobe style guidelines
+## Deployment
 
-### Manual Linting
-You can run linting manually at any time:
-```bash
-npm run lint
-```
+**Staging**: Actions > Deployment > Run workflow  
+**URL**: `developer-stage.adobe.com/adobe-connect-sdk/`
 
-The linting covers:
-- Markdown syntax and formatting
-- Link validation (internal and external)
-- Content structure and hierarchy
-- Adobe Developer documentation standards
-- Accessibility guidelines
+## Support
 
-## 📝 Navigation Setup
+Join `#adobe-developer-website` Slack channel for help.
 
-To configure the site navigation:
-1. Edit the directory hierarchy in `src/pages/`
-2. Update navigation configuration in `src/pages/config.md`
-3. Run `npm run buildNavigation` to generate the navigation structure
-4. The navigation will automatically reflect your content organization
+## Tech Stack
 
-## 🚢 Deployment
-
-### Staging Deployment
-1. Go to **Actions > Deployment > Run workflow** in the GitHub repository
-2. The site deploys to: `developer-stage.adobe.com/{path-prefix}/{relative-path-to-file}`
-
-### Production Deployment
-Production deployments follow the Adobe Developer site deployment process and are typically managed through the main Adobe Developer site infrastructure.
-
-## 📂 Content Guidelines
-
-- Place all documentation content in `src/pages/`
-- Use Markdown format for all documentation
-- Follow the Adobe Developer documentation style guide
-- Include proper front matter in Markdown files
-- Use relative links for internal navigation
-
-## 🆘 Support
-
-**Primary Support Channel**: `#adobe-developer-website` Slack channel
-
-Feel free to join the channel for:
-- Technical questions about the documentation site
-- Content review and feedback
-- Deployment assistance
-- Tool and workflow support
-
-## 🔧 Technical Details
-
-- **Framework**: Gatsby 4.22.0 with Adobe AIO Theme
-- **Node.js**: Uses ES modules (dev.mjs)
-- **Package Manager**: npm
-- **CI/CD**: GitHub Actions for automated linting and deployment
-- **Hosting**: Adobe Edge Delivery Services (EDS)
+- Gatsby 4.22.0 with Adobe AIO Theme
+- Node.js ES modules  
+- npm
+- GitHub Actions CI/CD
+- Adobe EDS hosting
