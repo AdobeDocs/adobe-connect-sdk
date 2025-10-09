@@ -9,7 +9,7 @@ The updated Adobe Connect pod UI is a complete redesign based on Spectrum 2, a
 The redesigned Adobe Connect pod UI is guided by the principles of Spectrum 2, Adobe’s unified design system. It emphasizes clarity, consistency, and adaptability across devices and user contexts. By adopting Spectrum 2, the UI achieves a modern, lightweight feel with accessible interactions, scalable components, and a cohesive visual language. To maintain synergy across the room, custom pods should also be developed using Spectrum 2 components, ensuring seamless integration and a unified user experience. 
 
  
-Read more on Spectrum 2 
+[Read more on Spectrum 2](https://react-spectrum.adobe.com/s2/index.html?path=/) 
 
  
 ## Pod Structure Overview 
