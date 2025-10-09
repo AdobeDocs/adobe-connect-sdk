@@ -46,6 +46,10 @@ Understand the structure of a Custom Pods package
 
 Learn how Custom Pods can communicate with other components of a room using Messages
 
+[Design Guidelines](guides/design_guidelines/index.md)
+
+Learn how to design your custom pods for a modern and accessible experience.  
+
 <DiscoverBlock slots="heading, link, text"/>
 
 ### Guides
