@@ -1,8 +1,10 @@
-Introduction 
+# Design Guidelines for Custom Pod Development
+
+## Introduction 
 
 The updated Adobe Connect pod UI is a complete redesign based on Spectrum 2, aimed at delivering a cleaner, more lightweight, and intuitive experience. It replaces the older blocky layout with modern visuals rounded corners, transparent and blurred backgrounds, and consolidated headers for better clarity and control. Interaction feedback is improved with clear hover and focus states, and the layout is optimized for touch devices. Accessibility has been significantly enhanced to meet WCAG standards. To ensure visual and functional consistency across the room, it’s recommended that all custom pods be developed using Spectrum 2 components, enabling seamless integration and synergy with the native pod experience. 
 
-Design Philosophy 
+## Design Philosophy 
 
 The redesigned Adobe Connect pod UI is guided by the principles of Spectrum 2, Adobe’s unified design system. It emphasizes clarity, consistency, and adaptability across devices and user contexts. By adopting Spectrum 2, the UI achieves a modern, lightweight feel with accessible interactions, scalable components, and a cohesive visual language. To maintain synergy across the room, custom pods should also be developed using Spectrum 2 components, ensuring seamless integration and a unified user experience. 
 
@@ -10,7 +12,7 @@ The redesigned Adobe Connect pod UI is guided by the principles of Spectrum 2,
 Read more on Spectrum 2 
 
  
-Pod Structure Overview 
+## Pod Structure Overview 
 
 To ensure consistency, usability, and visual harmony across all pods in Adobe Connect, we recommend structuring custom pods according to the updated pod architecture and Spectrum 2 design principles. Each pod may include: 
 
@@ -25,7 +27,7 @@ A Pod Frame that subtly highlights on focus to indicate active collaboration
 Footer Controls for persistent input or navigation, anchored and unobtrusive. 
 
  
-Best practices
+## Best practices
 
 When creating custom pods with the new UI framework, follow these guidelines to ensure consistency and a seamless experience within Connect rooms: 
 
