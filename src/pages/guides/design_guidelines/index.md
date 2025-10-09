@@ -34,23 +34,15 @@ When creating custom pods with the new UI framework, follow these guidelines to 
 - Use Spectrum 2 Components for UI Workflows.
 
   - Always prefer Spectrum 2 components from the open-source library for workflow-related UI (buttons, menus, dialogs, etc.). 
-
   - This ensures visual consistency, accessibility, and behaviour alignment with in-built pods. 
-
-  - Avoid building custom UI elements unless Spectrum 2 does not cover the use case. 
-
+  - Avoid building custom UI elements unless Spectrum 2 does not cover the use case.
+    
 - Leverage the Content Control Section for Navigation & Actions 
-
   - Place content-related navigation and actions inside the content control section. 
-
   - This keeps controls predictable and consistent across pods, helping users quickly adapt between in-built and custom pods. 
-
   - Avoid scattering navigation or actions across the pod surface. 
 
 - Avoid Explicit Background Colours 
-
   - By default, pods get a white background with transparency and blur effects for focus and layering states. 
-
   - Setting an explicit background colour can break this behaviour and feel inconsistent inside Connect rooms. 
-
   - Only use background overrides when absolutely necessary (e.g., branding requirements), and test carefully in both focused and unfocused states. 
