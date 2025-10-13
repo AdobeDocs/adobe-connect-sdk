@@ -9,7 +9,7 @@ contributors:
 
 # Adobe Connect SDK
 
-Adobe Connect enables customers to extend the out-of-the-box functionality of Adobe Connect using custom pods developed with standard web technologies such as HTML, Javascript, and CSS.
+Adobe Connect enables customers to extend the out-of-the-box functionality of Adobe Connect using custom pods developed with standard web technologies such as HTML, Javascript, and CSS. 
 
 <Resources slots="heading, links"/>
 
