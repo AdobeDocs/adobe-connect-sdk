@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-The updated Adobe Connect pod UI is a complete redesign based on Spectrum 2, aimed at delivering a cleaner, more lightweight, and intuitive experience. It replaces the older blocky layout with modern visuals rounded corners, transparent and blurred backgrounds, and consolidated headers for better clarity and control. Interaction feedback is improved with clear hover and focus states, and the layout is optimized for touch devices. Accessibility has been significantly enhanced to meet WCAG standards. To ensure visual and functional consistency across the room, it’s recommended that all custom pods be developed using Spectrum 2 components, enabling seamless integration and synergy with the native pod experience. 
+The updated Adobe Connect pod UI is a complete redesign based on Spectrum 2, aimed at delivering a cleaner, more lightweight, and intuitive experience. It replaces the older blocky layout with modern visuals rounded corners, transparent and blurred backgrounds, and consolidated headers for better clarity and control. Interaction feedback is improved with clear hover and focus states, and the layout is optimized for touch devices. Accessibility has been significantly enhanced to meet WCAG standards. To ensure visual and functional consistency across the room, it’s recommended that all custom pods be developed using Spectrum 2 components, enabling seamless integration and synergy with the native pod experience.  
 
 ## Design Philosophy 
 
