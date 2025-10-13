@@ -12,7 +12,7 @@
         - [Development Considerations](guides/development_considerations/index.md) 
         - [Custom Pod Structure](guides/custom_pod_structure/index.md) 
         - [Message Handling](guides/message_handling/index.md)
-        - [Design Guidelines](guides/design_guidelines/index.md)
+        - [Design Guidelines ](guides/design_guidelines/index.md)
         - [Code Samples](guides/code_samples/index.md) 
     - [Submission Guidelines](guides/submission_guidelines/index.md) 
         - [Creating a listing](guides/submission_guidelines/create_listing/index.md) 
