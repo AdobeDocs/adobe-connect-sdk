@@ -16,15 +16,15 @@ The redesigned Adobe Connect pod UI is guided by the principles of Spectrum 2,
 
 To ensure consistency, usability, and visual harmony across all pods in Adobe Connect, we recommend structuring custom pods according to the updated pod architecture and Spectrum 2 design principles. Each pod may include: 
 
-Pod Controls in the header for essential pod-level actions, compact and consistent across pod types. 
+- Pod Controls in the header for essential pod-level actions, compact and consistent across pod types. 
 
-Content Controls placed contextually below the header, limited to four, logically grouped (left-first), and styled with icon+label buttons. 
+- Content Controls placed contextually below the header, limited to four, logically grouped (left-first), and styled with icon+label buttons. 
 
-A Content Area that remains visually stable and responsive, with support for empty states using Spectrum Express illustrations. 
+- A Content Area that remains visually stable and responsive, with support for empty states using Spectrum Express illustrations. 
 
-A Pod Frame that subtly highlights on focus to indicate active collaboration zones. 
+- A Pod Frame that subtly highlights on focus to indicate active collaboration zones. 
 
-Footer Controls for persistent input or navigation, anchored and unobtrusive. 
+- Footer Controls for persistent input or navigation, anchored and unobtrusive. 
 
  
 ## Best practices
