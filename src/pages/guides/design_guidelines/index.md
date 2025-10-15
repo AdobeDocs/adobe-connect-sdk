@@ -31,13 +31,13 @@ Below, you will find a few images to help you understand the pod structure bette
 
 <ImageTextBlock slots="image,heading,text" repeat="2" bgColor="#f8f8f8" className="boxmodal" isCenter variantsTypePrimary='accent'/>
 
-![Pod Navigations](/static/Pod%20Navigations.png)
+![Pod Navigations](pod_navigations.png)
 
 ## Pod Navigations
 
 Service is the rent we pay for being. It is not something you do in your spare time
 
-![Pod Controls](/static/Pod%20Controls.png)
+![Pod Controls](pod_controls.png)
 
 ## Pod Controls
 
