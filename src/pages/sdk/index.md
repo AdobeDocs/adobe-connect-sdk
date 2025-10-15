@@ -1,3 +1,10 @@
+---
+title: Adobe Connect - SDK Documentation
+description: This is the page of Adobe Connect SDK Documentation
+contributors:
+  - https://github.com/skhadiya 
+---
+
 # SDK References
 
 Read through the SDK methods, properties, and events. 
