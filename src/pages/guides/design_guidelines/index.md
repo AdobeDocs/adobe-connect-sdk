@@ -28,7 +28,7 @@ To ensure consistency, usability, and visual harmony across all pods in Adobe Co
 
 Below, you will find a few images to help you understand the pod structure better. Please note that this is pod structure is what we currently recommend you use on your pods to stay in line with the native pods, and thus provide a consistent experience to Adobe Connect users. 
 
-![Pod Navigations](<https://developer-stage.adobe.com/adobe-connect-sdk/static/Pod Navigations.png>)
+![Pod Navigations](https://developer-stage.adobe.com/adobe-connect-sdk/static/Pod%20Navigations.png)
  
 ## Best practices
 
