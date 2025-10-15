@@ -24,7 +24,10 @@ To ensure consistency, usability, and visual harmony across all pods in Adobe Co
 
 - A Pod Frame that subtly highlights on focus to indicate active collaboration zones. 
 
-- Footer Controls for persistent input or navigation, anchored and unobtrusive. 
+- Footer Controls for persistent input or navigation, anchored and unobtrusive.
+
+Below, you will find a few images to help you understand the pod structure better. Please note that this is pod structure is what we currently recommend you use on your pods to stay in line with the native pods, and thus provide a consistent experience to Adobe Connect users. 
+
 
  
 ## Best practices
