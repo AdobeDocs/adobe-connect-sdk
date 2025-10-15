@@ -29,6 +29,21 @@ To ensure consistency, usability, and visual harmony across all pods in Adobe Co
 Below, you will find a few images to help you understand the pod structure better. Please note that this is pod structure is what we currently recommend you use on your pods to stay in line with the native pods, and thus provide a consistent experience to Adobe Connect users. 
 
 ![Pod Navigations](/static/Pod%20Navigations.png)
+
+<ImageTextBlock slots="image,heading,text,buttons" repeat="2" bgColor="#f8f8f8" className="boxmodal" isCenter variantsTypePrimary='accent'/>
+
+![Pod Navigations](/static/Pod%20Navigations.png)
+
+## Pod Navigations
+
+Service is the rent we pay for being. It is not something you do in your spare time
+
+![Pod Controls](/static/Pod%20Controls.png)
+
+## Pod Controls
+
+Adobe InDesign brings its new share for review features to life with Adobe.
+
  
 ## Best practices
 
