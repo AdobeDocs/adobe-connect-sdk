@@ -29,7 +29,7 @@ To ensure consistency, usability, and visual harmony across all pods in Adobe Co
 Below, you will find a few images to help you understand the pod structure better. Please note that this is pod structure is what we currently recommend you use on your pods to stay in line with the native pods, and thus provide a consistent experience to Adobe Connect users. 
 
 
-<ImageTextBlock slots="image,heading,text,buttons" repeat="2" bgColor="#f8f8f8" className="boxmodal" isCenter variantsTypePrimary='accent'/>
+<ImageTextBlock slots="image,heading,text" repeat="2" bgColor="#f8f8f8" className="boxmodal" isCenter variantsTypePrimary='accent'/>
 
 ![Pod Navigations](/static/Pod%20Navigations.png)
 
